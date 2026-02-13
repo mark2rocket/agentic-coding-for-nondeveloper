@@ -1,0 +1,260 @@
+/* 사이드바 - 반응형 */
+.sidebar {
+  width: 280px;
+  height: calc(100vh - 64px);
+  position: sticky;
+  top: 64px;
+  background: #fafafa;
+  border-right: 1px solid #e5e5e5;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s, border-color 0.3s, width 0.3s;
+  flex-shrink: 0;
+}
+
+.dark .sidebar {
+  background: #1a1a1a;
+  border-right-color: #333;
+}
+
+/* 태블릿 */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 240px;
+  }
+}
+
+/* 모바일 - 사이드바 숨김 */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar-header {
+  padding: 24px 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #171717;
+}
+
+.sidebar-nav {
+  flex: 1;
+  padding: 16px 0;
+}
+
+.nav-section {
+  margin-bottom: 24px;
+}
+
+.nav-section-title {
+  padding: 8px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  transition: background 0.2s;
+  position: relative;
+  min-height: 36px;
+}
+
+.nav-item:hover {
+  background: #f0f0f0;
+}
+
+.dark .nav-item:hover {
+  background: #2a2a2a;
+}
+
+.nav-item.active {
+  background: #f0f0f0;
+  font-weight: 600;
+  border-left: 3px solid #ff6b35;
+}
+
+.dark .nav-item.active {
+  background: #2a2a2a;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: color 0.2s, transform 0.2s;
+  border-radius: 4px;
+}
+
+.expand-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.dark .expand-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ccc;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #171717;
+  flex: 1;
+  transition: color 0.2s;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 4px 0;
+}
+
+.dark .nav-link {
+  color: #e5e5e5;
+}
+
+.nav-link:hover {
+  color: #ff6b35;
+}
+
+.nav-folder {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #171717;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 4px 0;
+  text-align: left;
+  transition: color 0.2s;
+  font-family: inherit;
+}
+
+.dark .nav-folder {
+  color: #e5e5e5;
+}
+
+.nav-folder:hover {
+  color: #ff6b35;
+}
+
+.nav-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+/* 우측 TOC - 반응형 */
+.toc {
+  width: 240px;
+  padding: 24px 16px;
+  position: sticky;
+  top: 64px;
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+  border-left: 1px solid #e5e5e5;
+  transition: border-color 0.3s;
+  flex-shrink: 0;
+}
+
+.dark .toc {
+  border-left-color: #333;
+}
+
+/* 중간 화면 - TOC 숨김 */
+@media (max-width: 1280px) {
+  .toc {
+    display: none;
+  }
+}
+
+.toc-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.toc-item {
+  display: block;
+  padding: 6px 0;
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s, padding-left 0.2s;
+  border-left: 2px solid transparent;
+  padding-left: 8px;
+}
+
+.toc-item:hover {
+  color: #ff6b35;
+  border-left-color: #ff6b35;
+  padding-left: 12px;
+}
+
+.toc-item.active {
+  color: #ff6b35;
+  font-weight: 600;
+  border-left-color: #ff6b35;
+  padding-left: 12px;
+}
+
+.dark .toc-item {
+  color: #999;
+}
+
+.dark .toc-item:hover,
+.dark .toc-item.active {
+  color: #ff6b35;
+}
+
+.toc-item.level-3 {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.toc-item.level-3:hover,
+.toc-item.level-3.active {
+  padding-left: 24px;
+}
+
+.toc-item.level-4 {
+  padding-left: 32px;
+  font-size: 11px;
+}
+
+.toc-item.level-4:hover,
+.toc-item.level-4.active {
+  padding-left: 36px;
+}
