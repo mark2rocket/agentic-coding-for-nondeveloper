@@ -20,20 +20,15 @@ const components = {
   h1: (props: any) => <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-10 leading-tight" {...props} />,
   h2: (props: any) => {
     const id = props.children ? generateHeadingId(props.children.toString()) : undefined;
-    return (
-      <>
-        <div className="mt-16 mb-8 border-t-2 border-gray-200 dark:border-gray-700"></div>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight" id={id} {...props} />
-      </>
-    );
+    return <h2 className="text-3xl md:text-4xl font-bold mb-6 mt-16 leading-tight" id={id} {...props} />;
   },
   h3: (props: any) => {
     const id = props.children ? generateHeadingId(props.children.toString()) : undefined;
     return <h3 className="text-2xl md:text-3xl font-bold mb-5 mt-12 leading-snug" id={id} {...props} />;
   },
   h4: (props: any) => <h4 className="text-xl md:text-2xl font-bold mb-4 mt-8 leading-snug" {...props} />,
-  p: (props: any) => <p className="mb-8 leading-8 text-base md:text-lg text-gray-900 dark:text-gray-100 font-normal" {...props} />,
-  hr: (props: any) => <SectionDivider spacing="medium" style="gradient" {...props} />,
+  p: (props: any) => <p className="mb-12 leading-9 text-base md:text-lg text-gray-900 dark:text-gray-100 font-normal" {...props} />,
+  hr: (props: any) => <hr className="my-12 border-t-2 border-gray-200 dark:border-gray-700" {...props} />,
   a: (props: any) => <a className="text-orange-500 hover:text-orange-600 underline font-medium" {...props} />,
   ul: (props: any) => <ul className="list-disc pl-6 mb-7 space-y-3" {...props} />,
   ol: (props: any) => <ol className="list-decimal pl-6 mb-7 space-y-3" {...props} />,

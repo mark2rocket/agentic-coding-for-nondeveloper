@@ -9,8 +9,6 @@ order: 4
 **준비물**: 클로드코드 설치
 
 
----
-
 ## Step 1: Hook 설정 파일 생성
 
 ```bash
@@ -19,8 +17,6 @@ mkdir -p ~/.claude/hooks
 nano ~/.claude/hooks/post-save.sh
 ```
 
-
----
 
 ## Step 2: Hook 스크립트 작성
 
@@ -52,16 +48,12 @@ echo "✨ Hook 완료!"
 ```
 
 
----
-
 ## Step 3: 실행 권한 부여
 
 ```bash
 chmod +x ~/.claude/hooks/post-save.sh
 ```
 
-
----
 
 ## Step 4: Claude에게 Hook 등록
 
@@ -71,11 +63,9 @@ chmod +x ~/.claude/hooks/post-save.sh
 ```
 
 
----
-
 ## Step 5: 테스트
 
-**코드 저장 시 자동 실행:**
+**코드 저장 시 자동 실행**:
 ```
 1. 파일 수정 (예: app/page.tsx)
 2. Claude에게 "저장해줘"
@@ -85,7 +75,7 @@ chmod +x ~/.claude/hooks/post-save.sh
    ✅ 테스트 실행 (해당 시)
 ```
 
-**📸 Hook 실행 화면:**
+**📸 Hook 실행 화면**:
 
 ```
 ┌─────────────────────────────────────────┐
@@ -104,10 +94,8 @@ chmod +x ~/.claude/hooks/post-save.sh
 
 **🎉 이제 저장할 때마다 자동으로 코드 정리!**
 
-**활용 아이디어:**
+**활용 아이디어**:
 - 📸 **pre-commit**: Git 커밋 전 자동 검증
 - 🔒 **pre-push**: 푸시 전 보안 스캔
 - 📊 **post-build**: 빌드 후 성능 분석
 - 📧 **deploy-complete**: 배포 완료 시 슬랙 알림
-
----

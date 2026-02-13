@@ -6,7 +6,7 @@ order: 3
 
 ## Q8: Subagent는 언제 써야 하나요?
 
-**사용 시기 (신호):**
+- **사용 시기 (신호)**
 
 **1. 컨텍스트 과부하**
 ```
@@ -38,7 +38,7 @@ order: 3
 해결: General-purpose Subagent
 ```
 
-**사용 예시:**
+**사용 예시**:
 ```
 "Explore Subagent로 인증 관련 파일 찾아줘"
 "Security Subagent로 XSS 취약점 검사해줘"
@@ -48,13 +48,11 @@ order: 3
 ---
 
 
----
-
 ## Q9: MCP는 필수인가요?
 
 **필수 아님**: MCP 없이도 충분히 개발 가능
 
-**있으면 매우 좋은 경우:**
+**있으면 매우 좋은 경우**:
 
 **1. GitHub 헤비 유저**
 ```
@@ -83,7 +81,7 @@ order: 3
 효과: 직접 연동, 검증 자동화
 ```
 
-**선택 가이드:**
+**선택 가이드**:
 ```
 초보자: MCP 건너뛰기 → 기본 학습에 집중
 중급자: GitHub MCP만 설정 → 효과 체험
@@ -93,39 +91,35 @@ order: 3
 ---
 
 
----
-
 ## Q10: 혼자 배우기 힘든데요?
 
-**커뮤니티 & 리소스:**
+**커뮤니티 & 리소스**:
 
-**한국어 커뮤니티:**
+**한국어 커뮤니티**:
 - Discord: [Claude Code 한국 사용자 모임]
 - 카카오톡: [에이전틱 코딩 오픈챗]
 - 슬랙: [AI 코딩 크루]
 
-**영어 커뮤니티:**
+**영어 커뮤니티**:
 - Reddit: r/ClaudeCode
 - GitHub Discussions: anthropics/claude-code
 - Discord: Claude Official Server
 
-**학습 자료:**
+**학습 자료**:
 - YouTube: "Claude Code Tutorial"
 - GitHub: awesome-claude-skills (5.5k stars)
 - 블로그: claude.ai/blog
 
-**1:1 도움:**
+**1:1 도움**:
 - Anthropic 공식 지원: support@anthropic.com
 - Stack Overflow: [claude-code] 태그
 
-**오프라인 모임:**
+**오프라인 모임**:
 - 판교/강남 코딩 모임
 - 대학 AI 동아리
 - 스타트업 커뮤니티
 
-**멘토링:**
+**멘토링**:
 - 오프소스 기여로 시작
 - Code Review 요청
 - 페어 프로그래밍 연습
-
----

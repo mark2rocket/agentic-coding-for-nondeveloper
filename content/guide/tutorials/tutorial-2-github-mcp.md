@@ -9,8 +9,6 @@ order: 2
 **준비물**: GitHub 계정, 클로드코드
 
 
----
-
 ## Step 1: GitHub 토큰 발급
 
 ```
@@ -24,8 +22,6 @@ order: 2
 ```
 
 
----
-
 ## Step 2: MCP 서버 추가
 
 ```bash
@@ -33,13 +29,11 @@ claude mcp add --transport http github https://api.github.com/mcp \
   --header "Authorization: Bearer YOUR_TOKEN"
 ```
 
-**또는 웹 앱에서:**
+**또는 웹 앱에서**:
 ```
 Settings → Connectors → Add GitHub → 토큰 입력
 ```
 
-
----
 
 ## Step 3: Claude에게 명령
 
@@ -56,8 +50,6 @@ Settings → Connectors → Add GitHub → 토큰 입력
 ```
 
 
----
-
 ## Step 4: 검증
 
 ```
@@ -67,5 +59,3 @@ Settings → Connectors → Add GitHub → 토큰 입력
 ```
 
 **🎉 탭 전환 없이 모든 작업 완료!**
-
----

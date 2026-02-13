@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
+import yaml from 'js-yaml';
 import { FrontMatter, MarkdownContent, Heading } from '@/types/content';
 
 const contentDirectory = path.join(process.cwd(), 'content');
@@ -25,7 +25,20 @@ export function getContentBySlug(slug: string): MarkdownContent | null {
     }
 
     const fileContents = fs.readFileSync(filePath, 'utf8');
-    const { data, content } = matter(fileContents);
+
+    // frontmatter만 추출하기 위해 수동으로 파싱
+    const frontmatterRegex = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/;
+    const match = fileContents.match(frontmatterRegex);
+
+    if (!match) {
+      return null;
+    }
+
+    const frontmatterStr = match[1];
+    const content = match[2];
+
+    // frontmatter만 YAML로 파싱
+    const data = yaml.load(frontmatterStr, { schema: yaml.JSON_SCHEMA }) as object;
 
     return {
       frontMatter: data as FrontMatter,

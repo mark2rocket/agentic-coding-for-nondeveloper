@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
+import yaml from 'js-yaml';
 
 export interface SearchItem {
   id: string;
@@ -29,7 +29,15 @@ export function buildSearchIndex(): SearchItem[] {
         traverseDirectory(fullPath, baseSlug ? `${baseSlug}/${file}` : file);
       } else if (file.endsWith('.md')) {
         const fileContent = fs.readFileSync(fullPath, 'utf-8');
-        const { data, content } = matter(fileContent);
+
+        // frontmatter만 추출
+        const frontmatterRegex = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/;
+        const match = fileContent.match(frontmatterRegex);
+
+        if (!match) continue;
+
+        const data = yaml.load(match[1], { schema: yaml.JSON_SCHEMA }) as any;
+        const content = match[2];
 
         const slug = baseSlug
           ? `${baseSlug}/${file.replace('.md', '')}`
