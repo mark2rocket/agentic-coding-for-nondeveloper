@@ -11,6 +11,10 @@ import { ClientServerDiagram } from '../diagrams/ClientServerDiagram';
 import { FrontendBackendDiagram } from '../diagrams/FrontendBackendDiagram';
 import { AgenticProcessDiagram } from '../diagrams/AgenticProcessDiagram';
 import { ToolComparisonDiagram } from '../diagrams/ToolComparisonDiagram';
+import { FlowchartDiagram } from '../diagrams/FlowchartDiagram';
+import { ProcessFlowDiagram } from '../diagrams/ProcessFlowDiagram';
+import { OrchestrationArchitecture } from '../diagrams/OrchestrationArchitecture';
+import { SequenceDiagram } from '../diagrams/SequenceDiagram';
 
 const components = {
   h1: (props: any) => <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-10 leading-tight" {...props} />,
@@ -72,6 +76,10 @@ const components = {
   FrontendBackendDiagram,
   AgenticProcessDiagram,
   ToolComparisonDiagram,
+  FlowchartDiagram,
+  ProcessFlowDiagram,
+  OrchestrationArchitecture,
+  SequenceDiagram,
 };
 
 interface MDXRendererProps {

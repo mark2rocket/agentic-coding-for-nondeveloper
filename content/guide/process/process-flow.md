@@ -6,33 +6,7 @@ order: 4
 
 ### 🔄 프로세스 플로우 다이어그램
 
-```mermaid
-graph TD
-    A[💡 1. 기획 및 요구사항 정의] --> B{명확한가?}
-    B -->|Yes| C[🤖 2. 생성 및 구현<br/>AI가 코드 작성]
-    B -->|No| A1[구체화하기<br/>- 기능 명세<br/>- 디자인 스타일<br/>- 사용자 시나리오]
-    A1 --> A
-
-    C --> D[🧪 3. 검증 및 수정<br/>실행 & 테스트]
-
-    D --> E{완성도?}
-    E -->|에러 발생| F[에러 로그 복사]
-    E -->|기능 부족| G[추가 요구사항 작성]
-    E -->|디자인 수정| H[UI/UX 피드백]
-    E -->|완료!| I[🎉 배포<br/>Deploy]
-
-    F --> C
-    G --> C
-    H --> C
-
-    I --> J[✅ 프로덕션 완료]
-
-    style A fill:#e1f5ff
-    style C fill:#fff4e1
-    style D fill:#ffe1f5
-    style I fill:#e1ffe1
-    style J fill:#90EE90
-```
+<ProcessFlowDiagram />
 
 **다이어그램 읽는 법:**
 - 🔷 **파란색**: 기획 단계 (사람의 역할)
