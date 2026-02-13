@@ -69,33 +69,123 @@
           ]
         },
         {
-          "title": "3. 에이전틱 코딩 툴",
+          "title": "3. 안티그래비티",
           "children": [
             {
-              "title": "3-1. 안티그래비티 (Antigravity)",
-              "slug": "guide/tools/antigravity"
+              "title": "3-1. 안티그래비티 소개",
+              "slug": "guide/antigravity/intro"
             },
             {
-              "title": "3-2. 클로드코드 (Claude Code)",
-              "slug": "guide/tools/claude-code"
+              "title": "3-2. 웹 기반 IDE 시작하기",
+              "slug": "guide/antigravity/getting-started"
             },
             {
-              "title": "3-3. 오 마이 클로드코드 (Oh My Claude Code)",
-              "slug": "guide/tools/oh-my-claude-code"
+              "title": "3-3. 기초 셋업",
+              "slug": "guide/antigravity/setup"
             },
             {
-              "title": "3-4. 클로드코드 플러그인 (Plugins)",
-              "slug": "guide/tools/plugins"
+              "title": "3-4. 명령어",
+              "slug": "guide/antigravity/commands"
             },
             {
-              "title": "3-5. 클로드코드 활용 레퍼런스",
-              "slug": "guide/tools/claude-code-reference"
+              "title": "3-5. 스킬 (Skills)",
+              "slug": "guide/antigravity/skills"
             },
             {
-              "title": "3-6. 클로드코드 꿀팁",
-              "slug": "guide/tools/claude-code-tips"
+              "title": "3-6. 활용 꿀팁",
+              "slug": "guide/antigravity/tips"
             }
           ]
+        },
+        {
+          "title": "4. 클로드코드",
+          "children": [
+            {
+              "title": "4-1. 클로드코드 소개",
+              "slug": "guide/claude-code/intro"
+            },
+            {
+              "title": "4-2. 클로드코드 설치",
+              "slug": "guide/claude-code/installation"
+            },
+            {
+              "title": "4-3. 클로드코드 기초 셋업",
+              "slug": "guide/claude-code/setup"
+            },
+            {
+              "title": "4-4. 클로드코드 명령어",
+              "slug": "guide/claude-code/commands"
+            },
+            {
+              "title": "4-5. 클로드코드 스킬",
+              "slug": "guide/claude-code/skills"
+            },
+            {
+              "title": "4-6. 클로드코드 서브에이전트",
+              "slug": "guide/claude-code/subagents"
+            },
+            {
+              "title": "4-7. 클로드코드 훅",
+              "slug": "guide/claude-code/hooks"
+            },
+            {
+              "title": "4-8. 클로드코드 활용 꿀팁",
+              "slug": "guide/claude-code/tips"
+            },
+            {
+              "title": "4-9. 클로드코드 플랜 모드",
+              "slug": "guide/claude-code/plan-mode"
+            },
+            {
+              "title": "4-10. CLAUDE.md 작성 4가지 원칙",
+              "slug": "guide/claude-code/claude-md"
+            },
+            {
+              "title": "4-11. 컨텍스트 윈도우 관리",
+              "slug": "guide/claude-code/context-management"
+            },
+            {
+              "title": "4-12. 프롬프트 엔지니어링 3원칙",
+              "slug": "guide/claude-code/prompt-engineering"
+            }
+          ]
+        },
+        {
+          "title": "5. 오 마이 클로드코드",
+          "children": [
+            {
+              "title": "5-1. 오 마이 클로드코드 소개",
+              "slug": "guide/oh-my-claude-code/intro"
+            },
+            {
+              "title": "5-2. 오 마이 클로드코드 설치법",
+              "slug": "guide/oh-my-claude-code/installation"
+            },
+            {
+              "title": "5-3. 오 마이 클로드코드 기초 셋업",
+              "slug": "guide/oh-my-claude-code/setup"
+            },
+            {
+              "title": "5-4. 오 마이 클로드코드 명령어",
+              "slug": "guide/oh-my-claude-code/commands"
+            },
+            {
+              "title": "5-5. 오 마이 클로드코드 활용 꿀팁",
+              "slug": "guide/oh-my-claude-code/tips"
+            }
+          ]
+        },
+        {
+          "title": "6. 클로드코드 플러그인",
+          "slug": "guide/plugins/intro"
+        },
+        {
+          "title": "7. 클로드코드 활용 레퍼런스",
+          "slug": "guide/claude-code-reference/intro"
+        },
+        {
+          "title": "8. 클로드코드 꿀팁",
+          "slug": "guide/claude-code-tips/intro"
         }
       ]
     },
@@ -104,7 +194,7 @@
       "slug": "guide-advanced",
       "items": [
         {
-          "title": "4. 에이전트 오케스트레이션",
+          "title": "9. 에이전트 오케스트레이션",
           "children": [
             {
               "title": "1. 개념 (Concept)",
