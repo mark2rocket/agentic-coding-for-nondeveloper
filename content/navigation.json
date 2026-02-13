@@ -1,29 +1,6 @@
 {
   "sections": [
     {
-      "title": "🛠️ 도구",
-      "slug": "guide-tools",
-      "items": [
-        {
-          "title": "도구 선택 가이드",
-          "children": [
-            {
-              "title": "나에게 맞는 도구는?",
-              "slug": "guide/tool-guide/choosing-tools"
-            },
-            {
-              "title": "🎯 선택 플로우차트",
-              "slug": "guide/tool-guide/selection-flowchart"
-            },
-            {
-              "title": "💰 비용 비교",
-              "slug": "guide/tool-guide/cost-comparison"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "📖 기초편",
       "slug": "guide-basic",
       "items": [
@@ -144,63 +121,6 @@
             {
               "title": "4. 복합 시스템 구축 (Integrated System)",
               "slug": "guide/orchestration/integrated-system"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "💡 실습편",
-      "slug": "guide-tutorial",
-      "items": [
-        {
-          "title": "5. 실전 튜토리얼",
-          "children": [
-            {
-              "title": "🎓 튜토리얼 1: 첫 웹사이트 만들기 (30분)",
-              "slug": "guide/tutorials/tutorial-1-first-website"
-            },
-            {
-              "title": "🎓 튜토리얼 2: MCP로 GitHub 연동하기 (20분)",
-              "slug": "guide/tutorials/tutorial-2-github-mcp"
-            },
-            {
-              "title": "🎓 튜토리얼 3: Subagent로 복잡한 프로젝트 (60분)",
-              "slug": "guide/tutorials/tutorial-3-subagent-project"
-            },
-            {
-              "title": "🎓 튜토리얼 4: Hook으로 자동화하기 (15분)",
-              "slug": "guide/tutorials/tutorial-4-hooks"
-            },
-            {
-              "title": "🎓 튜토리얼 5: Ultrawork로 병렬 개발 (45분)",
-              "slug": "guide/tutorials/tutorial-5-ultrawork"
-            }
-          ]
-        },
-        {
-          "title": "6. 문제 해결 가이드",
-          "children": [
-            {
-              "title": "🔧 자주 발생하는 문제와 해결법",
-              "slug": "guide/troubleshooting/common-issues"
-            }
-          ]
-        },
-        {
-          "title": "7. 자주 묻는 질문",
-          "children": [
-            {
-              "title": "📚 기초 질문",
-              "slug": "guide/faq/basic-questions"
-            },
-            {
-              "title": "🛠️ 도구 선택",
-              "slug": "guide/faq/tool-selection"
-            },
-            {
-              "title": "🎓 고급 질문",
-              "slug": "guide/faq/advanced-questions"
             }
           ]
         }
