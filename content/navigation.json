@@ -5,6 +5,31 @@
       "slug": "guide-basic",
       "items": [
         {
+          "title": "0. 시작하기",
+          "children": [
+            {
+              "title": "0-1. 에이전틱 코딩이란?",
+              "slug": "guide/getting-started/what-is-agentic-coding"
+            },
+            {
+              "title": "0-2. 나에게 맞는 도구 찾기",
+              "slug": "guide/tool-selection/intro"
+            },
+            {
+              "title": "0-3. 학습 로드맵",
+              "slug": "guide/getting-started/learning-roadmap"
+            },
+            {
+              "title": "0-4. 학습 체크리스트",
+              "slug": "guide/getting-started/checklist"
+            },
+            {
+              "title": "0-5. 빠른 시작 가이드",
+              "slug": "guide/getting-started/quick-start"
+            }
+          ]
+        },
+        {
           "title": "1. 기초 개발 용어",
           "children": [
             {
@@ -69,7 +94,7 @@
           ]
         },
         {
-          "title": "3. 안티그래비티",
+          "title": "3. [초급 추천] 안티그래비티",
           "children": [
             {
               "title": "3-1. 안티그래비티 소개",
@@ -98,7 +123,7 @@
           ]
         },
         {
-          "title": "4. 클로드코드",
+          "title": "4. [중급 추천] 클로드코드",
           "children": [
             {
               "title": "4-1. 클로드코드 소개",
@@ -151,7 +176,7 @@
           ]
         },
         {
-          "title": "5. 오 마이 클로드코드",
+          "title": "5. [고급 추천] 오 마이 클로드코드",
           "children": [
             {
               "title": "5-1. 오 마이 클로드코드 소개",
