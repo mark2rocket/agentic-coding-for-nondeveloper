@@ -90,6 +90,10 @@
             {
               "title": "3-5. 클로드코드 활용 레퍼런스",
               "slug": "guide/tools/claude-code-reference"
+            },
+            {
+              "title": "3-6. 클로드코드 꿀팁",
+              "slug": "guide/tools/claude-code-tips"
             }
           ]
         }
