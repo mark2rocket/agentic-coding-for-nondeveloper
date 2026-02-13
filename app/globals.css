@@ -78,8 +78,8 @@ body {
 
 /* 코드 블록 스타일 (라이트모드) */
 pre {
-  background: #f8f9fa !important;
-  border: 1px solid #e5e7eb !important;
+  background: #f1f3f5 !important;
+  border: 1px solid #dee2e6 !important;
   border-radius: 0.5rem !important;
   padding: 1rem !important;
   overflow-x: auto !important;
@@ -90,6 +90,20 @@ pre {
 .dark pre {
   background: #1e293b !important;
   border: 1px solid #475569 !important;
+}
+
+/* 코드 블록 내부 텍스트 색상 (라이트모드) */
+pre code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-size: 0.875rem !important;
+  color: #1f2937 !important;
+}
+
+/* 코드 블록 내부 텍스트 색상 (다크모드) */
+.dark pre code {
+  color: #e5e7eb !important;
 }
 
 /* 인라인 코드 스타일 (라이트모드) */
@@ -107,13 +121,4 @@ pre {
   background: #2d1f0f !important;
   border: 1px solid #664d03 !important;
   color: #ffc078 !important;
-}
-
-/* 코드 블록 내부의 코드는 별도 스타일 제거 */
-pre code {
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-  font-size: 0.875rem !important;
-  color: inherit !important;
 }
