@@ -15,8 +15,8 @@
 }
 
 .dark .sidebar {
-  background: #1a1a1a;
-  border-right-color: #333;
+  background: #0a0a0a;
+  border-right-color: #1a1a1a;
 }
 
 /* 태블릿 */
@@ -79,7 +79,7 @@
 }
 
 .dark .nav-item:hover {
-  background: #2a2a2a;
+  background: #1a1a1a;
 }
 
 .nav-item.active {
@@ -89,7 +89,7 @@
 }
 
 .dark .nav-item.active {
-  background: #2a2a2a;
+  background: #1a1a1a;
 }
 
 .expand-button {
@@ -181,7 +181,7 @@
 }
 
 .dark .toc {
-  border-left-color: #333;
+  border-left-color: #1a1a1a;
 }
 
 /* 중간 화면 - TOC 숨김 */

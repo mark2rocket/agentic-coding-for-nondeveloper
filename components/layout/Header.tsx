@@ -13,7 +13,7 @@ interface HeaderProps {
 
 export function Header({ searchIndex }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-800 bg-white/95 dark:bg-gray-900/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-gray-900/60 transition-colors">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-900 bg-white/95 dark:bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-black/60 transition-colors">
       <div className="flex h-16 items-center px-4 sm:px-6 md:px-8 gap-4 max-w-[2000px] mx-auto">
         {/* 로고 */}
         <Link href="/" className="flex items-center gap-2 flex-shrink-0">
