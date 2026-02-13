@@ -75,3 +75,45 @@ body {
   background: #f3f4f6;
   border-radius: 0.25rem;
 }
+
+/* 코드 블록 스타일 (라이트모드) */
+pre {
+  background: #f8f9fa !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 0.5rem !important;
+  padding: 1rem !important;
+  overflow-x: auto !important;
+  margin: 1rem 0 !important;
+}
+
+/* 코드 블록 스타일 (다크모드) */
+.dark pre {
+  background: #1e293b !important;
+  border: 1px solid #475569 !important;
+}
+
+/* 인라인 코드 스타일 (라이트모드) */
+:not(pre) > code {
+  background: #fff4e6 !important;
+  border: 1px solid #ffd8a8 !important;
+  border-radius: 0.25rem !important;
+  padding: 0.125rem 0.375rem !important;
+  font-size: 0.875em !important;
+  color: #d9730d !important;
+}
+
+/* 인라인 코드 스타일 (다크모드) */
+.dark :not(pre) > code {
+  background: #2d1f0f !important;
+  border: 1px solid #664d03 !important;
+  color: #ffc078 !important;
+}
+
+/* 코드 블록 내부의 코드는 별도 스타일 제거 */
+pre code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-size: 0.875rem !important;
+  color: inherit !important;
+}
