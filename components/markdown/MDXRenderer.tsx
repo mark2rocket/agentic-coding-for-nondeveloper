@@ -20,7 +20,7 @@ const components = {
   h1: (props: any) => <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-10 leading-tight" {...props} />,
   h2: (props: any) => {
     const id = props.children ? generateHeadingId(props.children.toString()) : undefined;
-    return <h2 className="text-3xl md:text-4xl font-bold mb-6 mt-16 leading-tight" id={id} {...props} />;
+    return <h2 className="text-3xl md:text-4xl font-bold mb-6 mt-32 leading-tight" id={id} {...props} />;
   },
   h3: (props: any) => {
     const id = props.children ? generateHeadingId(props.children.toString()) : undefined;
