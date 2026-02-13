@@ -18,19 +18,9 @@ export function Header({ searchIndex }: HeaderProps) {
         {/* 로고 */}
         <Link href="/" className="flex items-center gap-2 flex-shrink-0">
           <div className="font-bold text-lg sm:text-xl">
-            🤖 <span className="text-blue-600">Agentic Guide</span>
+            🤖 <span className="text-blue-600">Agentic Coding Guide for 비개발자</span>
           </div>
         </Link>
-
-        {/* 네비게이션 - 태블릿 이상에서만 표시 */}
-        <nav className="hidden md:flex items-center gap-4 lg:gap-6 text-sm font-medium">
-          <Link
-            href="/docs/guide/tool-guide"
-            className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors whitespace-nowrap"
-          >
-            가이드
-          </Link>
-        </nav>
 
         {/* 검색창 - 유연한 너비 */}
         <div className="flex-1 max-w-md mx-auto">
