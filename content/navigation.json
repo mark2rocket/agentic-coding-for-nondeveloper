@@ -9,15 +9,15 @@
           "children": [
             {
               "title": "나에게 맞는 도구는?",
-              "slug": "guide/tool-guide/나에게-맞는-도구는"
+              "slug": "guide/tool-guide/choosing-tools"
             },
             {
               "title": "🎯 선택 플로우차트",
-              "slug": "guide/tool-guide/선택-플로우차트"
+              "slug": "guide/tool-guide/selection-flowchart"
             },
             {
               "title": "💰 비용 비교",
-              "slug": "guide/tool-guide/비용-비교"
+              "slug": "guide/tool-guide/cost-comparison"
             }
           ]
         }
@@ -32,27 +32,27 @@
           "children": [
             {
               "title": "1-1. 서비스의 기본 구조 (Structure)",
-              "slug": "guide/basics/서비스의-기본-구조-structure"
+              "slug": "guide/basics/service-structure"
             },
             {
               "title": "1-2. 화면을 만드는 재료 (Interface)",
-              "slug": "guide/basics/화면을-만드는-재료-interface"
+              "slug": "guide/basics/interface"
             },
             {
               "title": "1-3. 개발을 돕는 도구들 (Tools & Tech)",
-              "slug": "guide/basics/개발을-돕는-도구들-tools-tech"
+              "slug": "guide/basics/tools-and-tech"
             },
             {
               "title": "1-4. 데이터와 소통 (Data & Communication)",
-              "slug": "guide/basics/데이터와-소통-data-communication"
+              "slug": "guide/basics/data-communication"
             },
             {
               "title": "1-5. 작업 관리와 수정 (Workflow)",
-              "slug": "guide/basics/작업-관리와-수정-workflow"
+              "slug": "guide/basics/workflow"
             },
             {
               "title": "1-6. 세상에 내보내기 (Deploy)",
-              "slug": "guide/basics/세상에-내보내기-deploy"
+              "slug": "guide/basics/deploy"
             }
           ]
         }
@@ -67,23 +67,23 @@
           "children": [
             {
               "title": "1. 기획 및 요구사항 정의 (Ideation)",
-              "slug": "guide/process/기획-및-요구사항-정의-ideation"
+              "slug": "guide/process/ideation"
             },
             {
               "title": "2. 생성 및 구현 (Generation)",
-              "slug": "guide/process/생성-및-구현-generation"
+              "slug": "guide/process/generation"
             },
             {
               "title": "3. 검증 및 수정 (Iteration)",
-              "slug": "guide/process/검증-및-수정-iteration"
+              "slug": "guide/process/iteration"
             },
             {
               "title": "🔄 프로세스 플로우 다이어그램",
-              "slug": "guide/process/프로세스-플로우-다이어그램"
+              "slug": "guide/process/process-flow"
             },
             {
               "title": "📊 단계별 소요 시간 (평균)",
-              "slug": "guide/process/단계별-소요-시간-평균"
+              "slug": "guide/process/time-estimation"
             }
           ]
         },
@@ -92,23 +92,23 @@
           "children": [
             {
               "title": "3-1. 안티그래비티 (Antigravity)",
-              "slug": "guide/tools/안티그래비티-antigravity"
+              "slug": "guide/tools/antigravity"
             },
             {
               "title": "3-2. 클로드코드 (Claude Code)",
-              "slug": "guide/tools/클로드코드-claude-code"
+              "slug": "guide/tools/claude-code"
             },
             {
               "title": "3-3. 오 마이 클로드코드 (Oh My Claude Code)",
-              "slug": "guide/tools/오-마이-클로드코드-oh-my-claude-code"
+              "slug": "guide/tools/oh-my-claude-code"
             },
             {
               "title": "3-4. 클로드코드 플러그인 (Plugins)",
-              "slug": "guide/tools/클로드코드-플러그인-plugins"
+              "slug": "guide/tools/plugins"
             },
             {
               "title": "3-5. 클로드코드 활용 레퍼런스",
-              "slug": "guide/tools/클로드코드-활용-레퍼런스"
+              "slug": "guide/tools/claude-code-reference"
             }
           ]
         }
@@ -123,27 +123,27 @@
           "children": [
             {
               "title": "1. 개념 (Concept)",
-              "slug": "guide/orchestration/개념-concept"
+              "slug": "guide/orchestration/concept"
             },
             {
               "title": "2. 프로세스 (Process)",
-              "slug": "guide/orchestration/프로세스-process"
+              "slug": "guide/orchestration/process"
             },
             {
               "title": "🏗️ 에이전트 오케스트레이션 아키텍처",
-              "slug": "guide/orchestration/에이전트-오케스트레이션-아키텍처"
+              "slug": "guide/orchestration/architecture"
             },
             {
               "title": "🔄 실제 작동 시퀀스 예시",
-              "slug": "guide/orchestration/실제-작동-시퀀스-예시"
+              "slug": "guide/orchestration/sequence-example"
             },
             {
               "title": "3. 도구와 구현 (Implementation)",
-              "slug": "guide/orchestration/도구와-구현-implementation"
+              "slug": "guide/orchestration/implementation"
             },
             {
               "title": "4. 복합 시스템 구축 (Integrated System)",
-              "slug": "guide/orchestration/복합-시스템-구축-integrated-system"
+              "slug": "guide/orchestration/integrated-system"
             }
           ]
         }
@@ -158,23 +158,23 @@
           "children": [
             {
               "title": "🎓 튜토리얼 1: 첫 웹사이트 만들기 (30분)",
-              "slug": "guide/tutorials/튜토리얼-1-첫-웹사이트-만들기-30분"
+              "slug": "guide/tutorials/tutorial-1-first-website"
             },
             {
               "title": "🎓 튜토리얼 2: MCP로 GitHub 연동하기 (20분)",
-              "slug": "guide/tutorials/튜토리얼-2-mcp로-github-연동하기-20분"
+              "slug": "guide/tutorials/tutorial-2-github-mcp"
             },
             {
               "title": "🎓 튜토리얼 3: Subagent로 복잡한 프로젝트 (60분)",
-              "slug": "guide/tutorials/튜토리얼-3-subagent로-복잡한-프로젝트-60분"
+              "slug": "guide/tutorials/tutorial-3-subagent-project"
             },
             {
               "title": "🎓 튜토리얼 4: Hook으로 자동화하기 (15분)",
-              "slug": "guide/tutorials/튜토리얼-4-hook으로-자동화하기-15분"
+              "slug": "guide/tutorials/tutorial-4-hooks"
             },
             {
               "title": "🎓 튜토리얼 5: Ultrawork로 병렬 개발 (45분)",
-              "slug": "guide/tutorials/튜토리얼-5-ultrawork로-병렬-개발-45분"
+              "slug": "guide/tutorials/tutorial-5-ultrawork"
             }
           ]
         },
@@ -183,7 +183,7 @@
           "children": [
             {
               "title": "🔧 자주 발생하는 문제와 해결법",
-              "slug": "guide/troubleshooting/자주-발생하는-문제와-해결법"
+              "slug": "guide/troubleshooting/common-issues"
             }
           ]
         },
@@ -192,15 +192,15 @@
           "children": [
             {
               "title": "📚 기초 질문",
-              "slug": "guide/faq/기초-질문"
+              "slug": "guide/faq/basic-questions"
             },
             {
               "title": "🛠️ 도구 선택",
-              "slug": "guide/faq/도구-선택"
+              "slug": "guide/faq/tool-selection"
             },
             {
               "title": "🎓 고급 질문",
-              "slug": "guide/faq/고급-질문"
+              "slug": "guide/faq/advanced-questions"
             }
           ]
         }
