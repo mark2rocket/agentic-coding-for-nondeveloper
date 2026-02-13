@@ -1,6 +1,5 @@
 ---
 title: "4-1. 클로드코드 소개"
-description: "4. 클로드코드"
 order: 1
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "0-4. 학습 체크리스트"
-description: "0. 시작하기"
 order: 4
 ---
 

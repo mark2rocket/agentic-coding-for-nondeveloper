@@ -1,6 +1,5 @@
 ---
 title: "3-3. 초기 설정"
-description: "3. 안티그래비티"
 order: 3
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "4-2. 클로드코드 설치"
-description: "4. 클로드코드"
 order: 2
 ---
 

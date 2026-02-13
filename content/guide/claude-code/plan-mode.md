@@ -1,6 +1,5 @@
 ---
 title: "4-9. 클로드코드 플랜 모드"
-description: "4. 클로드코드"
 order: 9
 ---
 

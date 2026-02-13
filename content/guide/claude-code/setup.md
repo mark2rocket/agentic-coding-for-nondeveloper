@@ -1,6 +1,5 @@
 ---
 title: "4-3. 클로드코드 기초 셋업"
-description: "4. 클로드코드"
 order: 3
 ---
 

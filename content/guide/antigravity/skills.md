@@ -1,6 +1,5 @@
 ---
 title: "3-5. 에이전트 스킬 (Agent Skills)"
-description: "3. 안티그래비티"
 order: 5
 ---
 
@@ -78,7 +77,6 @@ order: 5
 ```markdown
 ---
 name: 스킬 이름
-description: 이 스킬이 언제 사용되는지 설명
 trigger: 자동 실행 조건 (선택사항)
 ---
 
@@ -110,7 +108,6 @@ trigger: 자동 실행 조건 (선택사항)
 ```markdown
 ---
 name: email-validation
-description: 이메일 입력 필드에 자동으로 형식 검증 추가
 trigger: 이메일 입력 폼 생성 시
 ---
 
@@ -148,7 +145,6 @@ trigger: 이메일 입력 폼 생성 시
 ```markdown
 ---
 name: commit-message-convention
-description: Git 커밋 메시지 작성 규칙
 trigger: git commit 실행 시
 ---
 
@@ -197,7 +193,6 @@ feat: 로그인 페이지 추가
 ```markdown
 ---
 name: stock-analysis-report
-description: 주식 분석 리포트 작성 시 사용하는 형식
 trigger: 주식 분석 요청 시
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "4-10. CLAUDE.md 작성 4가지 원칙"
-description: "4. 클로드코드"
 order: 10
 ---
 

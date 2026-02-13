@@ -1,6 +1,5 @@
 ---
 title: "3. 검증 및 수정 (Iteration)"
-description: "2. 에이전틱 코딩(Vibe Coding) 프로세스"
 order: 3
 ---
 

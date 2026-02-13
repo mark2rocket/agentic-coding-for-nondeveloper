@@ -1,6 +1,5 @@
 ---
 title: "도구 선택 가이드"
-description: "안티그래비티 vs 클로드코드 vs OMC - 나에게 맞는 도구 찾기"
 order: 1
 ---
 

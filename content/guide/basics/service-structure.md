@@ -1,6 +1,5 @@
 ---
 title: "1-1. 서비스의 기본 구조 (Structure)"
-description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 1
 ---
 

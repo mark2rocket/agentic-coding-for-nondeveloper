@@ -1,6 +1,5 @@
 ---
 title: "8. 클로드코드 꿀팁"
-description: "8. 클로드코드 꿀팁"
 order: 1
 ---
 

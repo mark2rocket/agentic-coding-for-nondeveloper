@@ -1,6 +1,5 @@
 ---
 title: "📊 단계별 소요 시간 (평균)"
-description: "2. 에이전틱 코딩(Vibe Coding) 프로세스"
 order: 5
 ---
 

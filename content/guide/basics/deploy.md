@@ -1,6 +1,5 @@
 ---
 title: "1-6. 세상에 내보내기 (Deploy)"
-description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 6
 ---
 

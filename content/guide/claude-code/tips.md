@@ -1,6 +1,5 @@
 ---
 title: "4-8. 클로드코드 활용 꿀팁"
-description: "4. 클로드코드"
 order: 8
 ---
 

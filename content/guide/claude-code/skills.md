@@ -1,6 +1,5 @@
 ---
 title: "4-5. 클로드코드 스킬"
-description: "4. 클로드코드"
 order: 5
 ---
 
@@ -19,7 +18,6 @@ order: 5
 ```yaml
 ---
 name: code-review-standards
-description: PR 검토나 개선사항 제안 시 팀 표준 적용
 ---
 
 # 코드 리뷰 표준
@@ -60,7 +58,6 @@ description: PR 검토나 개선사항 제안 시 팀 표준 적용
 ```yaml
 ---
 name: commit-convention
-description: Git 커밋 메시지를 Conventional Commits 표준으로 작성
 ---
 
 # Commit Message Convention
@@ -104,7 +101,6 @@ description: Git 커밋 메시지를 Conventional Commits 표준으로 작성
 ```yaml
 ---
 name: code-review-standards
-description: 코드 리뷰 시 팀 표준 적용
 ---
 
 # Code Review Standards
@@ -146,7 +142,6 @@ description: 코드 리뷰 시 팀 표준 적용
 ```yaml
 ---
 name: meeting-notes
-description: 회의록을 구조화된 형식으로 작성
 ---
 
 # Meeting Notes Template
@@ -193,7 +188,6 @@ description: 회의록을 구조화된 형식으로 작성
 ```yaml
 ---
 name: api-documentation
-description: RESTful API 문서를 OpenAPI 3.0 형식으로 작성
 ---
 
 # API Documentation Format
@@ -262,7 +256,6 @@ paths:
 ```yaml
 ---
 name: database-query-patterns
-description: 효율적인 데이터베이스 쿼리 작성 가이드
 ---
 
 # Database Query Best Practices
@@ -314,7 +307,6 @@ for (const user of users) {
 ```yaml
 ---
 name: weekly-summary
-description: 주간 업무 리포트 작성
 ---
 
 # Weekly Summary Template
@@ -360,7 +352,6 @@ YYYY-MM-DD ~ YYYY-MM-DD
 ```yaml
 ---
 name: error-handling
-description: 에러 처리 베스트 프랙티스
 ---
 
 # Error Handling Patterns
@@ -416,7 +407,6 @@ def fetch_user(user_id: str) -> User:
 ```yaml
 ---
 name: habit-tracking
-description: 일일 습관 체크 및 주간 리뷰
 ---
 
 # Daily Habit Tracker
@@ -451,7 +441,6 @@ description: 일일 습관 체크 및 주간 리뷰
 ```yaml
 ---
 name: project-setup
-description: 새 프로젝트 시작 시 체크리스트
 ---
 
 # Project Setup Checklist
@@ -499,7 +488,6 @@ description: 새 프로젝트 시작 시 체크리스트
 ```yaml
 ---
 name: weekly-schedule
-description: 주간 일정 템플릿 및 시간 배분
 ---
 
 # Weekly Schedule Template

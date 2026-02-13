@@ -1,6 +1,5 @@
 ---
 title: "1-2. 화면을 만드는 재료 (Interface)"
-description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 2
 ---
 

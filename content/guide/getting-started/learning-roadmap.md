@@ -1,6 +1,5 @@
 ---
 title: "0-3. 학습 로드맵"
-description: "0. 시작하기"
 order: 3
 ---
 

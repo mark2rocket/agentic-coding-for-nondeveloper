@@ -1,6 +1,5 @@
 ---
 title: "3. 도구와 구현 (Implementation)"
-description: "4. 에이전트 오케스트레이션"
 order: 5
 ---
 

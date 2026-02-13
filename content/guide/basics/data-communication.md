@@ -1,6 +1,5 @@
 ---
 title: "1-4. 데이터와 소통 (Data & Communication)"
-description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 4
 ---
 

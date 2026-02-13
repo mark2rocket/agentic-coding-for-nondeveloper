@@ -1,6 +1,5 @@
 ---
 title: "1-7. 터미널과 터미널 툴 추천"
-description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 7
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "3-2. 안티그래비티 설치"
-description: "3. 안티그래비티"
 order: 2
 ---
 

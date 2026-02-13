@@ -1,6 +1,5 @@
 ---
 title: "사용 방법"
-description: "문서 작성 및 관리 방법"
 order: 2
 ---
 

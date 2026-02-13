@@ -1,6 +1,5 @@
 ---
 title: "4-6. 클로드코드 서브에이전트"
-description: "4. 클로드코드"
 order: 6
 ---
 
@@ -21,7 +20,6 @@ order: 6
 ```yaml
 ---
 name: security-reviewer
-description: 보안 취약점 검토 (인증, 인젝션, 데이터 노출)
 tools: Read, Grep, Glob
 ---
 

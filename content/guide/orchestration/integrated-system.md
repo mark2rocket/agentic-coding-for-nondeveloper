@@ -1,6 +1,5 @@
 ---
 title: "4. 복합 시스템 구축 (Integrated System)"
-description: "4. 에이전트 오케스트레이션"
 order: 6
 ---
 

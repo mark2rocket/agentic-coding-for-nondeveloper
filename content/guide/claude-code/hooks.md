@@ -1,6 +1,5 @@
 ---
 title: "4-7. 클로드코드 훅"
-description: "4. 클로드코드"
 order: 7
 ---
 

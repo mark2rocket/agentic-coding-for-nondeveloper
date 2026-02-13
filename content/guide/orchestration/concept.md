@@ -1,6 +1,5 @@
 ---
 title: "1. 개념 (Concept)"
-description: "4. 에이전트 오케스트레이션"
 order: 1
 ---
 

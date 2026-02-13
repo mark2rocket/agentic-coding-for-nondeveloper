@@ -1,6 +1,5 @@
 ---
 title: "2. 프로세스 (Process)"
-description: "4. 에이전트 오케스트레이션"
 order: 2
 ---
 

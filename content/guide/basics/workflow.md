@@ -1,6 +1,5 @@
 ---
 title: "1-5. 작업 관리와 수정 (Workflow)"
-description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 5
 ---
 

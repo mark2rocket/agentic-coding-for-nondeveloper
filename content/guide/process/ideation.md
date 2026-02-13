@@ -1,6 +1,5 @@
 ---
 title: "1. 기획 및 요구사항 정의 (Ideation)"
-description: "2. 에이전틱 코딩(Vibe Coding) 프로세스"
 order: 1
 ---
 

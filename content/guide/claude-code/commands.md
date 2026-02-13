@@ -1,6 +1,5 @@
 ---
 title: "4-4. 클로드코드 명령어"
-description: "4. 클로드코드"
 order: 4
 ---
 

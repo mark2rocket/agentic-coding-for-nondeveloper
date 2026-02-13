@@ -1,6 +1,5 @@
 ---
 title: "0-1. 에이전틱 코딩이란?"
-description: "0. 시작하기"
 order: 1
 ---
 

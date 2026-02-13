@@ -1,6 +1,5 @@
 ---
 title: "3-6. 보안 및 주의사항"
-description: "3. 안티그래비티"
 order: 6
 ---
 

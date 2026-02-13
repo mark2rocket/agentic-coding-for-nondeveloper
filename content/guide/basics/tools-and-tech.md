@@ -1,6 +1,5 @@
 ---
 title: "1-3. 개발을 돕는 도구들 (Tools & Tech)"
-description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 3
 ---
 
