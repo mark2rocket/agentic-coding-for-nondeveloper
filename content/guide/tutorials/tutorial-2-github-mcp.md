@@ -4,13 +4,14 @@ description: "5. 실전 튜토리얼 (Step-by-Step)"
 order: 2
 ---
 
-### 🎓 튜토리얼 2: MCP로 GitHub 연동하기 (20분)
-
 **목표**: Claude가 직접 GitHub 이슈 읽고 PR 만들기
 **난이도**: ⭐⭐ 중급
 **준비물**: GitHub 계정, 클로드코드
 
-#### Step 1: GitHub 토큰 발급
+
+---
+
+## Step 1: GitHub 토큰 발급
 
 ```
 1. github.com → Settings
@@ -22,7 +23,10 @@ order: 2
 5. 토큰 복사 (한 번만 보임!)
 ```
 
-#### Step 2: MCP 서버 추가
+
+---
+
+## Step 2: MCP 서버 추가
 
 ```bash
 claude mcp add --transport http github https://api.github.com/mcp \
@@ -34,7 +38,10 @@ claude mcp add --transport http github https://api.github.com/mcp \
 Settings → Connectors → Add GitHub → 토큰 입력
 ```
 
-#### Step 3: Claude에게 명령
+
+---
+
+## Step 3: Claude에게 명령
 
 ```
 "내 GitHub 리포지토리 목록 보여줘"
@@ -48,7 +55,10 @@ Settings → Connectors → Add GitHub → 토큰 입력
 설명: 다크모드 토글 버튼 추가했습니다."
 ```
 
-#### Step 4: 검증
+
+---
+
+## Step 4: 검증
 
 ```
 1. GitHub에서 PR 생성 확인

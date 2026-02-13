@@ -4,11 +4,12 @@ description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 3
 ---
 
-### 1-3. 개발을 돕는 도구들 (Tools & Tech)
-
 맨땅에 헤딩하지 않기 위한 도구
 
-#### 라이브러리 (Library)
+
+---
+
+## 라이브러리 (Library)
 
 **Level.1:** 레고 블록 상자입니다. 내가 필요한 블록(바퀴, 창문)만 골라서 내 마음대로 조립합니다.
 
@@ -24,7 +25,10 @@ const tomorrow = dayjs().add(1, 'day').format('YYYY-MM-DD');
 
 **한줄 요약:** AI에게 "차트 그리는 라이브러리 써서 그래프 만들어줘"라고 하세요.
 
-#### 프레임워크 (Framework)
+
+---
+
+## 프레임워크 (Framework)
 
 **Level.1:** 모델 하우스입니다. 이미 방 구조와 배관이 다 짜여 있고, 나는 가구만 배치하면 됩니다.
 
@@ -41,7 +45,10 @@ export default function Home() {
 
 **한줄 요약:** "Next.js 프레임워크 기반으로 프로젝트 세팅해줘"라고 시작하세요.
 
-#### Node.js & Next.js & Typescript
+
+---
+
+## Node.js & Next.js & Typescript
 
 **Level.1:** Node.js는 자바스크립트를 컴퓨터에서도 돌아가게 하는 엔진, Next.js는 웹사이트 제작 키트, Typescript는 깐깐한 자바스크립트입니다.
 
@@ -65,7 +72,10 @@ export default function Page() {
 
 **한줄 요약:** AI에게 "Node.js 환경에서 Typescript와 Next.js를 써서 개발해줘"가 가장 무난한 주문입니다.
 
-#### MCP (Model Context Protocol)
+
+---
+
+## MCP (Model Context Protocol)
 
 **Level.1:** AI 비서가 여러 가지 도구를 사용할 수 있게 해주는 '만능 어댑터'입니다. 하나의 충전기로 여러 기기를 연결하듯, MCP로 AI가 다양한 프로그램을 사용할 수 있습니다.
 

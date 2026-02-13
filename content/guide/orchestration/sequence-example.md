@@ -4,8 +4,6 @@ description: "4. 에이전트 오케스트레이션"
 order: 4
 ---
 
-### 🔄 실제 작동 시퀀스 예시
-
 <SequenceDiagram />
 
 **시퀀스 읽는 법:**

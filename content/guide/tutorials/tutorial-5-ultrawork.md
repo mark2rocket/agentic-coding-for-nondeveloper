@@ -4,13 +4,14 @@ description: "5. 실전 튜토리얼 (Step-by-Step)"
 order: 5
 ---
 
-### 🎓 튜토리얼 5: Ultrawork로 병렬 개발 (45분)
-
 **목표**: E-커머스 사이트를 5개 에이전트가 동시에 제작
 **난이도**: ⭐⭐⭐ 고급
 **준비물**: 오마이클로드 설치
 
-#### Step 1: 프로젝트 초기화
+
+---
+
+## Step 1: 프로젝트 초기화
 
 ```bash
 mkdir e-commerce
@@ -18,7 +19,10 @@ cd e-commerce
 claude
 ```
 
-#### Step 2: Ultrawork 모드 활성화
+
+---
+
+## Step 2: Ultrawork 모드 활성화
 
 ```
 /oh-my-claudecode:ultrawork "쇼핑몰 만들어줘"
@@ -48,7 +52,10 @@ graph LR
     J --> K[Verifier<br/>최종 검증]
 ```
 
-#### Step 3: 상세 요구사항 제공
+
+---
+
+## Step 3: 상세 요구사항 제공
 
 ```
 "쇼핑몰 상세 기획:
@@ -73,7 +80,10 @@ graph LR
 - 모바일 우선 반응형"
 ```
 
-#### Step 4: 병렬 작업 모니터링
+
+---
+
+## Step 4: 병렬 작업 모니터링
 
 **📸 Ultrawork 실행 화면:**
 
@@ -106,7 +116,10 @@ graph LR
 [14:23:55] Tester:     🧪 Running integration tests...
 ```
 
-#### Step 5: 중간 개입 (필요시)
+
+---
+
+## Step 5: 중간 개입 (필요시)
 
 ```
 "Designer야, 상품 카드에 호버 효과 추가해줘"
@@ -116,7 +129,10 @@ graph LR
 "Tester야, 장바구니 테스트 우선으로 실행"
 ```
 
-#### Step 6: 최종 검증
+
+---
+
+## Step 6: 최종 검증
 
 ```
 # 모든 에이전트 완료 후
@@ -135,7 +151,10 @@ graph LR
 └─────────────────────────────────────────┘
 ```
 
-#### Step 7: 실행 및 확인
+
+---
+
+## Step 7: 실행 및 확인
 
 ```bash
 npm install

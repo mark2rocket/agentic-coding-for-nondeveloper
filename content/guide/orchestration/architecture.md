@@ -4,8 +4,6 @@ description: "4. 에이전트 오케스트레이션"
 order: 3
 ---
 
-### 🏗️ 에이전트 오케스트레이션 아키텍처
-
 <OrchestrationArchitecture />
 
 **아키텍처 설명:**

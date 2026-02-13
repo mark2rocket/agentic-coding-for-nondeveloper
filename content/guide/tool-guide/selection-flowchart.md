@@ -4,8 +4,6 @@ description: "🛠️ 도구 선택 가이드"
 order: 2
 ---
 
-### 🎯 선택 플로우차트
-
 <FlowchartDiagram />
 
 **플로우차트 설명:**

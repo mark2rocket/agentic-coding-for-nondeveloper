@@ -4,11 +4,9 @@ description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 1
 ---
 
-### 1-1. 서비스의 기본 구조 (Structure)
-
 누가 요청하고 누가 응답하는가?
 
-#### 서버 (Server) vs 클라이언트 (Client)
+## 서버 (Server) vs 클라이언트 (Client)
 
 **Level.1:** 식당에 비유할 수 있습니다. 클라이언트는 음식을 주문하는 '손님', 서버는 요리를 만들어서 내주는 '주방'입니다.
 
@@ -26,7 +24,9 @@ order: 1
 
 <ClientServerDiagram />
 
-#### 프론트엔드 (Frontend) vs 백엔드 (Backend)
+---
+
+## 프론트엔드 (Frontend) vs 백엔드 (Backend)
 
 **Level.1:** 프론트엔드는 예쁘게 꾸며진 식당의 '홀(식탁)', 백엔드는 손님 눈에 안 보이는 '주방과 창고'입니다.
 

@@ -4,11 +4,12 @@ description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 2
 ---
 
-### 1-2. 화면을 만드는 재료 (Interface)
-
 화면은 무엇으로 만들어지는가?
 
-#### HTML & CSS & Javascript
+
+---
+
+## HTML & CSS & Javascript
 
 **Level.1:** HTML은 사람의 '뼈대', CSS는 입고 있는 '옷', Javascript는 걷고 뛰는 '근육(동작)'입니다.
 
@@ -33,7 +34,10 @@ order: 2
 
 **한줄 요약:** "HTML로 구조 잡고, CSS로 꾸미고, JS로 움직이게 해줘"라고 지시하세요.
 
-#### UI (User Interface) vs UX (User Experience)
+
+---
+
+## UI (User Interface) vs UX (User Experience)
 
 **Level.1:** UI는 숟가락의 '디자인', UX는 그 숟가락으로 밥을 먹을 때 느껴지는 '편안함'입니다.
 

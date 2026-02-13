@@ -4,13 +4,14 @@ description: "5. 실전 튜토리얼 (Step-by-Step)"
 order: 4
 ---
 
-### 🎓 튜토리얼 4: Hook으로 자동화하기 (15분)
-
 **목표**: 코드 저장 시 자동으로 포맷팅 + 테스트
 **난이도**: ⭐⭐ 중급
 **준비물**: 클로드코드 설치
 
-#### Step 1: Hook 설정 파일 생성
+
+---
+
+## Step 1: Hook 설정 파일 생성
 
 ```bash
 # ~/.claude/hooks/post-save.sh 생성
@@ -18,7 +19,10 @@ mkdir -p ~/.claude/hooks
 nano ~/.claude/hooks/post-save.sh
 ```
 
-#### Step 2: Hook 스크립트 작성
+
+---
+
+## Step 2: Hook 스크립트 작성
 
 ```bash
 #!/bin/bash
@@ -47,20 +51,29 @@ fi
 echo "✨ Hook 완료!"
 ```
 
-#### Step 3: 실행 권한 부여
+
+---
+
+## Step 3: 실행 권한 부여
 
 ```bash
 chmod +x ~/.claude/hooks/post-save.sh
 ```
 
-#### Step 4: Claude에게 Hook 등록
+
+---
+
+## Step 4: Claude에게 Hook 등록
 
 ```
 "post-save hook을 활성화해줘.
 파일: ~/.claude/hooks/post-save.sh"
 ```
 
-#### Step 5: 테스트
+
+---
+
+## Step 5: 테스트
 
 **코드 저장 시 자동 실행:**
 ```

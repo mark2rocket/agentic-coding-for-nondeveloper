@@ -4,11 +4,12 @@ description: "1. 기초 개발 용어 (Categorized Flow)"
 order: 4
 ---
 
-### 1-4. 데이터와 소통 (Data & Communication)
-
 정보를 주고받고 저장하는 법
 
-#### HTTP & 요청(Request) vs 응답(Response)
+
+---
+
+## HTTP & 요청(Request) vs 응답(Response)
 
 **Level.1:** HTTP는 대화 규칙(한국어, 영어), 요청은 "질문", 응답은 "대답"입니다.
 
@@ -25,7 +26,10 @@ fetch('https://api.example.com/data')
 
 **한줄 요약:** "HTTP 요청이 실패했어. 응답 코드가 몇 번인지 확인해줘"라고 물어보세요.
 
-#### API & JSON
+
+---
+
+## API & JSON
 
 **Level.1:** API는 점원(주문 전달자), JSON은 주문서 양식(메뉴: 피자, 수량: 1)입니다.
 
@@ -42,7 +46,10 @@ const data = await response.json();
 
 **한줄 요약:** "날씨 API를 연동해서 JSON 데이터를 받아와 줘"라고 하세요.
 
-#### DB (DataBase) & CRUD
+
+---
+
+## DB (DataBase) & CRUD
 
 **Level.1:** DB는 도서관의 책장, CRUD는 책을 꽂고(C), 읽고(R), 수정하고(U), 버리는(D) 4가지 동작입니다.
 

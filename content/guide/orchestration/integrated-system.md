@@ -4,8 +4,6 @@ description: "4. 에이전트 오케스트레이션"
 order: 6
 ---
 
-### 4. 복합 시스템 구축 (Integrated System)
-
 **통합 개념:**
 **Skills (패턴) × Subagents (하위 작업) × MCP (외부 연동) = 강력한 시스템**
 

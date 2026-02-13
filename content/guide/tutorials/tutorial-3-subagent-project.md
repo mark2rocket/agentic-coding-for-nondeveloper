@@ -4,13 +4,14 @@ description: "5. 실전 튜토리얼 (Step-by-Step)"
 order: 3
 ---
 
-### 🎓 튜토리얼 3: Subagent로 복잡한 프로젝트 (60분)
-
 **목표**: 블로그 시스템 만들기 (기획 → 구현 → 테스트)
 **난이도**: ⭐⭐⭐ 고급
 **준비물**: 클로드코드, 오마이클로드 설치
 
-#### Step 1: 플랜 모드로 시작
+
+---
+
+## Step 1: 플랜 모드로 시작
 
 ```bash
 # Shift + Tab + Tab 누르기
@@ -27,7 +28,10 @@ order: 3
 6. 검색 기능
 ```
 
-#### Step 2: Subagent 활용
+
+---
+
+## Step 2: Subagent 활용
 
 **Explore로 참고 코드 분석:**
 ```
@@ -46,7 +50,10 @@ General-purpose Subagent 사용해서 진행."
 "작성한 코드에 대해 테스트 케이스 작성하고 실행해줘."
 ```
 
-#### Step 3: Skill 생성
+
+---
+
+## Step 3: Skill 생성
 
 ```yaml
 # .claude/skills/blog-conventions/SKILL.md
@@ -66,7 +73,10 @@ description: 블로그 포스트 작성 규칙
 4. 코드 블록은 언어 명시
 ```
 
-#### Step 4: 통합 및 배포
+
+---
+
+## Step 4: 통합 및 배포
 
 ```bash
 # 모든 기능 테스트
