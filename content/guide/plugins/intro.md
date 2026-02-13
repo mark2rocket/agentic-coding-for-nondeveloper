@@ -340,7 +340,37 @@ claude plugin add @composio/connect-apps
 
 ---
 
-### 10. frontend-design (고품질 UI 디자인)
+### 10. Context7 MCP (최신 API 문서 자동 가져오기)
+
+<Callout type="info" title="📚 항상 최신 문서 참조">
+라이브러리 버전에 맞는 정확한 문서를 자동으로 가져옵니다.
+</Callout>
+
+**기능:**
+- 패키지 최신 문서 자동 검색
+- 버전별 API 차이 자동 반영
+- 정확한 코드 예제 제공
+- 더 이상 구글링 불필요
+
+**활용 예시:**
+```bash
+"React 19의 useTransition 훅 어떻게 써?"
+
+→ Context7이 React 19 공식 문서에서 정확한 사용법 가져옴
+→ 예제 코드까지 자동 생성
+```
+
+**설치:**
+```bash
+claude mcp add @modelcontextprotocol/server-context7
+```
+
+**공식 사이트:**
+- [https://context7.dev/](https://context7.dev/)
+
+---
+
+### 11. frontend-design (고품질 UI 디자인)
 
 <Callout type="success" title="🎨 AI 스럽지 않은 디자인">
 뻔한 AI 디자인을 벗어나 독창적인 인터페이스를 생성합니다.
@@ -359,6 +389,172 @@ claude plugin add @composio/connect-apps
 
 → 파란 버튼 대신 독특한 인터랙션
 → 평범한 레이아웃 대신 창의적 구성
+```
+
+---
+
+## 🌟 추가 추천 플러그인 (2026 최신)
+
+### Playwright MCP (브라우저 테스팅 전문)
+
+<Callout type="success" title="🎭 E2E 테스트 자동화">
+웹 애플리케이션 테스트를 Claude가 직접 작성하고 실행합니다.
+</Callout>
+
+**기능:**
+- E2E 테스트 코드 자동 생성
+- 브라우저 자동화 스크립트
+- 다중 브라우저 테스트 (Chrome, Firefox, Safari)
+- 스크린샷 및 비디오 녹화
+
+**활용 예시:**
+```bash
+"로그인 → 프로필 수정 → 저장 플로우 E2E 테스트 만들어줘"
+
+→ Playwright 코드 자동 생성
+→ 테스트 실행 및 결과 리포트
+```
+
+**설치:**
+```bash
+claude mcp add @playwright/mcp-server
+```
+
+---
+
+### Firecrawl (웹 데이터 추출)
+
+**기능:**
+- 웹 페이지 크롤링
+- 구조화된 데이터 추출
+- PDF, 이미지 데이터 파싱
+- JavaScript 렌더링 지원
+
+**활용 예시:**
+```bash
+"이 웹사이트에서 상품 정보 100개 크롤링해줘"
+
+→ 자동으로 데이터 수집 및 JSON 변환
+```
+
+**설치:**
+```bash
+claude plugin add @firecrawl/mcp-server
+```
+
+**공식 사이트:**
+- [https://www.firecrawl.dev/](https://www.firecrawl.dev/)
+
+---
+
+### tdd-guard (TDD 자동 강제)
+
+<Callout type="warning" title="✅ 테스트 없으면 코드 없다">
+테스트를 먼저 작성하도록 강제하는 플러그인입니다.
+</Callout>
+
+**기능:**
+- 테스트 우선 작성 강제
+- 코드 작성 전 테스트 케이스 요구
+- 테스트 커버리지 80% 이상 자동 확인
+- Red-Green-Refactor 사이클 자동화
+
+**활용 예시:**
+```bash
+"로그인 함수 만들어줘"
+
+→ tdd-guard: "먼저 테스트 케이스를 작성해주세요"
+→ 테스트 작성 → 구현 → 리팩토링 순서 강제
+```
+
+**설치:**
+```bash
+claude plugin add @tdd/guard
+```
+
+---
+
+### CCPlugins (생산성 플러그인 모음) ⭐ GitHub 2.6k stars
+
+<Callout type="tip" title="🚀 커뮤니티가 인정한 플러그인">
+실제 개발자가 만든, 실제로 시간을 절약해주는 플러그인 모음입니다.
+</Callout>
+
+**포함된 플러그인:**
+- Smart commit: 변경 사항 자동 분석해서 커밋 메시지 생성
+- Quick fix: 일반적인 에러 패턴 자동 수정
+- Doc generator: 함수 주석 자동 생성
+- Refactor assistant: 리팩토링 제안 및 실행
+
+**특징:**
+- 일반적인 프롬프트 입력 불필요
+- 컨텍스트 기반 자동 작동
+- 프로덕션 환경에서 검증됨
+
+**설치:**
+```bash
+claude plugin add @ccplugins/productivity-pack
+```
+
+**공식 저장소:**
+- [https://github.com/ccplugins/awesome-claude-code-plugins](https://github.com/ccplugins/awesome-claude-code-plugins)
+
+---
+
+### Continuous-Claude-v2 (컨텍스트 관리) ⭐ GitHub 2.2k stars
+
+<Callout type="info" title="🧠 컨텍스트 오염 방지">
+에이전트 간 컨텍스트를 분리하고 효율적으로 관리합니다.
+</Callout>
+
+**기능:**
+- 상태 관리 (ledgers & handoffs)
+- MCP 실행 시 컨텍스트 격리
+- 에이전트 오케스트레이션
+- 독립적인 컨텍스트 윈도우
+
+**활용 예시:**
+```bash
+# 여러 에이전트가 동시에 작업할 때
+# 서로의 컨텍스트가 섞이지 않도록 관리
+
+→ 에이전트 A: 프론트엔드 작업
+→ 에이전트 B: 백엔드 작업
+→ 컨텍스트 분리로 효율 증대
+```
+
+**설치:**
+```bash
+claude plugin add @continuous-claude/v2
+```
+
+**공식 저장소:**
+- [https://github.com/continuous-claude/continuous-claude-v2](https://github.com/continuous-claude/continuous-claude-v2)
+
+---
+
+### Sequential Thinking MCP (고급 문제 해결)
+
+**기능:**
+- 복잡한 문제를 단계별로 분해
+- 장기 컨텍스트 유지
+- 구조화된 사고 프로세스
+- 아키텍처 결정 지원
+
+**활용 예시:**
+```bash
+"마이크로서비스 아키텍처 설계 도와줘"
+
+→ Step 1: 요구사항 분석
+→ Step 2: 서비스 경계 정의
+→ Step 3: 통신 패턴 선택
+→ Step 4: 데이터베이스 전략
+→ Step 5: 배포 계획
+```
+
+**설치:**
+```bash
+claude mcp add @anthropic/sequential-thinking
 ```
 
 ---
