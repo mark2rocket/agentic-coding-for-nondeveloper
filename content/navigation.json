@@ -30,6 +30,10 @@
             {
               "title": "1-6. 세상에 내보내기 (Deploy)",
               "slug": "guide/basics/deploy"
+            },
+            {
+              "title": "1-7. 터미널과 터미널 툴 추천",
+              "slug": "guide/basics/terminal-tools"
             }
           ]
         }
