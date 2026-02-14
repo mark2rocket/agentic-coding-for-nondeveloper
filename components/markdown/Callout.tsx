@@ -42,6 +42,7 @@ export function Callout({ type = 'info', title, number, children }: CalloutProps
     success: '성공',
     error: '오류',
     tip: '팁',
+    danger: '위험',
   };
 
   return (
