@@ -79,7 +79,7 @@ Windows 사용자라면 **방법 1: GUI 설치 프로그램**을 사용하세요
 
 ```bash
 claude --version
-```bash
+```
 
 **4. 버전 정보가 표시되면 성공!**
 - 예: `Claude Code v0.2.1`
@@ -120,8 +120,6 @@ Type '/help' for a list of commands.
 
 **2단계: 설치 명령어 입력**
 
-</LevelBox>
-
 **터미널 입력 예시:**
 ```powershell
 ┌────────────────────────────────────────────────────────┐
@@ -145,7 +143,9 @@ Type '/help' for a list of commands.
 │                                                        │
 │ PS C:\Users\사용자명>                                  │
 └────────────────────────────────────────────────────────┘
-```powershell
+```
+
+</LevelBox>
 
 **자동 업데이트:**
 ```powershell
@@ -154,7 +154,7 @@ winget upgrade claude-code
 
 # 또는 모든 프로그램 업데이트
 winget upgrade --all
-```text
+```
 
 ---
 
@@ -170,8 +170,6 @@ winget upgrade --all
 - Win + X → "Windows PowerShell"
 
 **2단계: 아래 명령어 복사해서 붙여넣기**
-
-</LevelBox>
 
 **터미널 입력 예시:**
 ```powershell
@@ -190,7 +188,9 @@ winget upgrade --all
 │                                                        │
 │ PS C:\Users\사용자명>                                  │
 └────────────────────────────────────────────────────────┘
-```powershell
+```
+
+</LevelBox>
 
 <Callout type="info" title="복사-붙여넣기 팁">
 - 복사: Ctrl + C
@@ -214,8 +214,6 @@ winget upgrade --all
 
 **2단계: Homebrew가 있는지 확인**
 
-</LevelBox>
-
 **터미널 입력 예시:**
 ```bash
 ┌────────────────────────────────────────────────────────┐
@@ -238,7 +236,9 @@ winget upgrade --all
 │                                                        │
 │ ~ %                                                    │
 └────────────────────────────────────────────────────────┘
-```bash
+```
+
+</LevelBox>
 
 ---
 
@@ -260,7 +260,7 @@ winget upgrade --all
 │ ~ % claude --version                                   │
 │ Claude Code v0.2.1                                    │
 └────────────────────────────────────────────────────────┘
-```text
+```
 
 ---
 
@@ -289,7 +289,7 @@ winget upgrade --all
 │ user@linux:~$ claude --version                        │
 │ Claude Code v0.2.1                                    │
 └────────────────────────────────────────────────────────┘
-```bash
+```
 
 ---
 
@@ -301,14 +301,14 @@ winget upgrade --all
 │ $ sudo apt update                                      │
 │ $ sudo apt install claude-code                        │
 └────────────────────────────────────────────────────────┘
-```text
+```
 
 **Fedora/RHEL:**
 ```bash
 ┌────────────────────────────────────────────────────────┐
 │ $ sudo dnf install claude-code                         │
 └────────────────────────────────────────────────────────┘
-```bash
+```
 
 ---
 
@@ -321,12 +321,12 @@ winget upgrade --all
 **터미널 입력:**
 ```bash
 claude --version
-```text
+```
 
 **성공 시 출력:**
 ```text
 Claude Code v0.2.1
-```text
+```
 
 ---
 
@@ -335,7 +335,7 @@ Claude Code v0.2.1
 **터미널 입력:**
 ```bash
 claude --help
-```text
+```
 
 **성공 시 출력:**
 ```text
@@ -366,7 +366,7 @@ claude --help
 **터미널 입력:**
 ```bash
 claude login
-```text
+```
 
 **동작 과정:**
 ```text
@@ -406,7 +406,7 @@ claude login
 **터미널 입력:**
 ```bash
 claude chat
-```bash
+```
 
 **성공 시 화면:**
 ```text
@@ -459,7 +459,9 @@ claude chat
 **터미널 입력:**
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```text
+```
+
+</LevelBox>
 
 ---
 
@@ -484,7 +486,9 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 **Homebrew 먼저 설치:**
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```bash
+```
+
+</LevelBox>
 
 ---
 
@@ -494,14 +498,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ```bash
 sudo chmod +x /usr/local/bin/claude
-```text
+```
 
 **문제 2: 의존성 오류**
 
 **Debian/Ubuntu:**
 ```bash
 sudo apt-get install -f
-```bash
+```
 
 **Fedora:**
 ```bash
