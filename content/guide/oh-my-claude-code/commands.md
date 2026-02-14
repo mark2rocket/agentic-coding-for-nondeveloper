@@ -5,7 +5,7 @@ order: 4
 
 OMC는 강력한 워크플로우 명령어를 제공합니다. 자연언어로 요청하면 자동으로 적절한 모드가 실행됩니다.
 
-<Callout type="success" title="✨ Magic Keywords">
+<Callout type="success" title="Magic Keywords">
 OMC는 특정 키워드를 감지하면 자동으로 해당 모드를 실행합니다. 명령어를 외울 필요가 없습니다!
 </Callout>
 
@@ -272,7 +272,7 @@ omc wait --stop
 
 ---
 
-<Callout type="success" title="✅ 핵심 요약">
+<Callout type="success" title="핵심 요약">
 1. **자연언어 사용**: 키워드만 포함하면 자동 실행
 2. **상황별 선택**: 작업 크기와 예산에 맞게 선택
 3. **걱정 없이 시도**: 언제든 `cancel`로 취소 가능

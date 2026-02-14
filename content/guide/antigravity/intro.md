@@ -9,7 +9,7 @@ order: 1
 
 기존의 코딩 보조 도구(Copilot 등)가 코드 추천에 그쳤다면, 안티그래비티는 프로젝트 전체의 구조를 설계하고 브라우저를 직접 제어하여 테스트까지 수행합니다.
 
-<Callout type="info" title="📅 출시 정보">
+<Callout type="info" title="출시 정보">
 2025년 11월 구글이 제미나이(Gemini)와 함께 공식 출시한 에이전틱(Agentic) 코딩 통합 개발 환경(IDE)입니다.
 </Callout>
 
@@ -107,7 +107,7 @@ order: 1
 
 ## 안티그래비티가 적합한 경우
 
-<Callout type="success" title="✅ 이런 분들에게 추천">
+<Callout type="success" title="이런 분들에게 추천">
 - 코딩을 전혀 모르지만 아이디어를 구현하고 싶은 사람
 - 반복적인 테스트 작업을 자동화하고 싶은 개발자
 - 여러 프로젝트를 동시에 관리해야 하는 팀
@@ -115,7 +115,7 @@ order: 1
 - 이미지 리소스가 많이 필요한 프로젝트
 </Callout>
 
-<Callout type="warning" title="⚠️ 주의사항">
+<Callout type="warning" title="주의사항">
 안티그래비티는 강력한 도구이지만, **터미널 명령 자동 실행 설정**을 잘못하면 파일이 삭제될 위험이 있습니다. 반드시 설정을 확인하고 사용해야 합니다 (자세한 내용은 "3-6. 보안 및 주의사항" 참고).
 </Callout>
 
@@ -123,6 +123,6 @@ order: 1
 
 ## 한줄 요약
 
-<Callout type="tip" title="💡 핵심">
+<Callout type="tip" title="핵심">
 구글 안티그래비티는 "말로 시키면 알아서 코딩하고 테스트까지 하는" AI 개발자입니다.
 </Callout>

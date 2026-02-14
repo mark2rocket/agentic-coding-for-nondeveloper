@@ -19,7 +19,7 @@ order: 3
 4. Restart 버튼 클릭
 ```
 
-<Callout type="tip" title="💡 팁">
+<Callout type="tip" title="팁">
 언어 설정은 UI뿐만 아니라 **AI가 생성하는 코드 주석**도 한국어로 작성하게 합니다. 비개발자에게 매우 유용합니다.
 </Callout>
 
@@ -103,7 +103,7 @@ Fast Mode 진행:
 | **사용자 개입** | 승인 필요 | 최소화 |
 | **추천 대상** | 비개발자 | 경험 있는 사용자 |
 
-<Callout type="tip" title="💡 추천">
+<Callout type="tip" title="추천">
 처음 사용한다면 **Planning Mode**를 선택하세요. AI가 무엇을 할 것인지 미리 보여주므로 안심하고 작업할 수 있습니다.
 </Callout>
 
@@ -122,7 +122,7 @@ Fast Mode 진행:
 3. "Select Folder" 클릭
 ```
 
-<Callout type="warning" title="⚠️ 매우 중요!">
+<Callout type="warning" title="매우 중요!">
 **작업 전용 폴더를 별도로 만들어 사용**하는 것이 안전합니다. 바탕화면이나 문서 폴더를 직접 선택하면 기존 파일들이 혼재되어 관리가 어렵습니다.
 </Callout>
 
@@ -160,7 +160,7 @@ Settings > Terminal > Auto-execution
 | Auto | AI가 자동으로 명령어 실행 | ⚠️ 위험 |
 | Turbo | 승인 없이 모든 명령어 즉시 실행 | 🚨 매우 위험 |
 
-<Callout type="danger" title="🚨 실제 사고 사례">
+<Callout type="danger" title="실제 사고 사례">
 "Turbo" 또는 "Auto" 설정 시, AI가 사용자 동의 없이 파일 삭제 명령(`rm -rf`)을 실행하여 **드라이브 전체가 삭제**된 사례가 보고되었습니다. 모든 터미널 명령은 사용자가 눈으로 확인하고 **Approve 버튼**을 누르는 방식으로 진행해야 합니다.
 </Callout>
 
@@ -203,7 +203,7 @@ Settings > Browser > Default Browser
 - [ ] **터미널 Auto-execution = "Request Review"**
 - [ ] 구글 계정 로그인 상태
 
-<Callout type="success" title="✅ 설정 완료!">
+<Callout type="success" title="설정 완료!">
 모든 설정이 완료되었다면 이제 안티그래비티를 사용할 준비가 끝났습니다! 다음 단계인 "3-4. 명령어"에서 실제 사용법을 배워보세요.
 </Callout>
 

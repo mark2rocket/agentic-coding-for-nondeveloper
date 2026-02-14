@@ -5,7 +5,7 @@ order: 2
 
 오 마이 클로드코드(OMC)는 Claude Code의 공식 플러그인 시스템을 통해 설치합니다.
 
-<Callout type="warning" title="⚠️ 필수 조건">
+<Callout type="warning" title="필수 조건">
 Claude Code가 먼저 설치되어 있어야 합니다. [4-2. 클로드코드 설치](/docs/guide/claude-code/installation)를 먼저 완료하세요.
 </Callout>
 
@@ -89,7 +89,7 @@ git clone https://github.com/Yeachan-Heo/oh-my-claudecode /tmp/oh-my-claudecode
 /oh-my-claudecode:omc-setup
 ```
 
-<Callout type="tip" title="💡 언제 로컬 설치를 사용하나요?">
+<Callout type="tip" title="언제 로컬 설치를 사용하나요?">
 - 인터넷 연결이 불안정할 때
 - 특정 버전을 설치하고 싶을 때
 - 개발 버전을 테스트하고 싶을 때
@@ -149,7 +149,7 @@ ping github.com
 
 ## 📊 설치 후 다음 단계
 
-<Callout type="success" title="✅ 설치 완료!">
+<Callout type="success" title="설치 완료!">
 OMC가 성공적으로 설치되었습니다. 다음 단계로 진행하세요:
 </Callout>
 
@@ -188,7 +188,7 @@ rm -rf {프로젝트}/.omc/
 
 ---
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 Claude Code에서 `/plugin install oh-my-claudecode` 실행 후 `/oh-my-claudecode:omc-setup`으로 설정하면 끝입니다!
 </Callout>
 

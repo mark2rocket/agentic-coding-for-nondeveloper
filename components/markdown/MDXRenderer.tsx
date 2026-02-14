@@ -1,7 +1,7 @@
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
 import { CodeBlock } from './CodeBlock';
-import { Callout } from './Callout';
+import { Callout, InfoBox, LevelBox } from './Callout';
 import { SectionCard, SectionCardsGrid } from './SectionCard';
 import { Badge, MetaInfo } from './Badge';
 import { ImageWithCaption } from './ImageWithCaption';
@@ -27,11 +27,18 @@ const components = {
     return <h3 className="text-2xl md:text-3xl font-bold mb-5 mt-12 leading-snug" id={id} {...props} />;
   },
   h4: (props: any) => <h4 className="text-xl md:text-2xl font-bold mb-4 mt-8 leading-snug" {...props} />,
-  p: (props: any) => <p className="mb-12 leading-9 text-base md:text-lg text-gray-900 dark:text-gray-100 font-normal" {...props} />,
+  p: (props: any) => {
+    // strong 태그가 있는 p는 마진 줄이기
+    const hasStrong = props.children && typeof props.children === 'object' &&
+                      (props.children.type === 'strong' ||
+                       (Array.isArray(props.children) && props.children.some((child: any) => child?.type === 'strong')));
+    const marginClass = hasStrong ? 'mb-2' : 'mb-12';
+    return <p className={`${marginClass} leading-9 text-base md:text-lg text-gray-900 dark:text-gray-100 font-normal`} {...props} />;
+  },
   hr: (props: any) => <hr className="my-12 border-t-2 border-gray-200 dark:border-gray-700" {...props} />,
   a: (props: any) => <a className="text-orange-500 hover:text-orange-600 underline font-medium" {...props} />,
-  ul: (props: any) => <ul className="list-disc pl-6 mb-7 space-y-3" {...props} />,
-  ol: (props: any) => <ol className="list-decimal pl-6 mb-7 space-y-3" {...props} />,
+  ul: (props: any) => <ul className="list-disc pl-6 mb-8 space-y-3" {...props} />,
+  ol: (props: any) => <ol className="list-decimal pl-6 mb-8 space-y-3" {...props} />,
   li: (props: any) => {
     // 체크리스트 스타일
     const content = props.children;
@@ -52,7 +59,7 @@ const components = {
     const isInline = !className;
 
     if (isInline) {
-      return <code className="bg-orange-100 dark:bg-gray-700 px-2 py-1 rounded text-sm font-mono text-orange-700 dark:text-orange-300" {...props} />;
+      return <code className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded text-sm font-mono text-gray-800 dark:text-gray-300" {...props} />;
     }
 
     return <CodeBlock {...props} />;
@@ -67,6 +74,8 @@ const components = {
   th: (props: any) => <th className="border border-gray-300 dark:border-gray-600 px-4 py-3 text-left font-semibold text-base" {...props} />,
   td: (props: any) => <td className="border border-gray-300 dark:border-gray-600 px-4 py-3 text-base leading-relaxed" {...props} />,
   Callout,
+  InfoBox,
+  LevelBox,
   SectionCard,
   SectionCardsGrid,
   Badge,

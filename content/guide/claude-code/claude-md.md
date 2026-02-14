@@ -32,6 +32,6 @@ order: 10
 # → Claude가 CLAUDE.md에 자동으로 지시사항 추가
 ```
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 "이유"를 포함해서 작성하면 AI가 10배 더 똑똑해집니다.
 </Callout>

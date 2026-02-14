@@ -11,7 +11,7 @@ order: 1
 
 ### 1. CLAUDE.md 파일 500줄 이하로 설정하기
 
-<Callout type="warning" title="⚠️ 컨텍스트 오버플로우 주의">
+<Callout type="warning" title="컨텍스트 오버플로우 주의">
 CLAUDE.md가 너무 길면 Claude가 중요한 지시사항을 놓칠 수 있습니다.
 </Callout>
 
@@ -49,7 +49,7 @@ CLAUDE.md가 너무 길면 Claude가 중요한 지시사항을 놓칠 수 있습
 
 ### 2. Skill 적극 사용해서 AI가 일정한 결과물 내게 하기
 
-<Callout type="tip" title="💡 일관성의 비밀">
+<Callout type="tip" title="일관성의 비밀">
 Skill은 AI의 "템플릿"입니다. 매번 같은 품질의 결과물을 보장합니다.
 </Callout>
 
@@ -87,7 +87,7 @@ Skill은 AI의 "템플릿"입니다. 매번 같은 품질의 결과물을 보장
 
 ### 3. 작업 끝내고 /clear 쳐서 컨텍스트 비우기
 
-<Callout type="success" title="🧹 컨텍스트 청소의 힘">
+<Callout type="success" title="컨텍스트 청소의 힘">
 긴 대화 기록은 AI의 집중력을 떨어뜨립니다. 정기적으로 `/clear`를 사용하세요.
 </Callout>
 
@@ -124,7 +124,7 @@ Skill은 AI의 "템플릿"입니다. 매번 같은 품질의 결과물을 보장
 
 ### 4. 계획은 think 토큰 많이 쓰게 하고, 실행은 think 토큰 적게 쓰게 하기
 
-<Callout type="info" title="🧠 사고의 경제학">
+<Callout type="info" title="사고의 경제학">
 복잡한 계획은 깊게 생각하고, 단순 실행은 빠르게 처리하세요.
 </Callout>
 
@@ -173,7 +173,7 @@ Claude의 응답 스타일을 커스터마이징하여 학습 효과를 극대�
 
 ### /output-style 설정 변경하기
 
-<Callout type="tip" title="💬 당신만의 AI 튜터">
+<Callout type="tip" title="당신만의 AI 튜터">
 output-style을 바꾸면 Claude의 교육 방식이 달라집니다.
 </Callout>
 
@@ -255,7 +255,7 @@ Vercel과 커뮤니티에서 검증된 필수 Skill을 소개합니다.
 
 ### 1. Superpowers
 
-<Callout type="success" title="🦸 AI 에이전트 통제의 기술">
+<Callout type="success" title="AI 에이전트 통제의 기술">
 AI가 코드부터 짜지 않게 만드는 개발 방법론
 </Callout>
 
@@ -291,7 +291,7 @@ claude skill add superpowers
 
 ### 2. Humanizer
 
-<Callout type="warning" title="🤖→🙋 AI 냄새 제거기">
+<Callout type="warning" title="→🙋 AI 냄새 제거기">
 AI가 쓴 글에서 "AI 냄새"를 24가지로 잡아내는 필터
 </Callout>
 
@@ -325,7 +325,7 @@ claude skill add humanizer
 
 ### 3. UI/UX Pro Max
 
-<Callout type="tip" title="🎨 템플릿 티 제거 전문가">
+<Callout type="tip" title="템플릿 티 제거 전문가">
 AI가 만든 화면에서 템플릿 느낌을 없애주는 디자인 엔진
 </Callout>
 
@@ -371,7 +371,7 @@ claude skill add ui-ux-pro-max
 
 ### 4. Find Skills (Vercel 공식)
 
-<Callout type="info" title="🔍 10만 Skill 생태계 검색엔진">
+<Callout type="info" title="10만 Skill 생태계 검색엔진">
 한 줄로 검색하고 설치하는 도구
 </Callout>
 
@@ -411,7 +411,7 @@ AI에게 디자인을 요청할 때 사용하는 마법의 키워드
 
 ### 기본 키워드
 
-<Callout type="tip" title="✨ 첫인상을 바꾸는 4가지">
+<Callout type="tip" title="첫인상을 바꾸는 4가지">
 기본만 써도 세련된 느낌이 나옵니다.
 </Callout>
 
@@ -451,7 +451,7 @@ AI에게 디자인을 요청할 때 사용하는 마법의 키워드
 
 ### 튀는 키워드
 
-<Callout type="success" title="🚀 포트폴리오를 돋보이게">
+<Callout type="success" title="포트폴리오를 돋보이게">
 고급 기술로 차별화하세요.
 </Callout>
 
@@ -509,7 +509,7 @@ Claude Code를 경제적으로 사용하는 방법
 
 ### reasoning_effort=auto 설정
 
-<Callout type="success" title="💰 자동 모델 선택으로 비용 50% 절감">
+<Callout type="success" title="자동 모델 선택으로 비용 50% 절감">
 난이도에 따라 Haiku/Sonnet/Opus를 자동으로 선택합니다.
 </Callout>
 
@@ -540,7 +540,7 @@ Claude Code를 경제적으로 사용하는 방법
 
 ### Prompt Caching (90% 절감)
 
-<Callout type="tip" title="🔄 같은 컨텍스트는 재사용">
+<Callout type="tip" title="같은 컨텍스트는 재사용">
 CLAUDE.md 같은 긴 프롬프트를 캐싱하면 90% 저렴합니다.
 </Callout>
 
@@ -564,7 +564,7 @@ CLAUDE.md (5000 토큰) = $0.015
 
 ### Batch API (50% 더 저렴)
 
-<Callout type="info" title="⏰ 급하지 않으면 Batch로">
+<Callout type="info" title="급하지 않으면 Batch로">
 24시간 내 처리되는 대신 50% 할인
 </Callout>
 
@@ -584,7 +584,7 @@ claude batch run
 
 ### 멀티 에이전트 전략
 
-<Callout type="warning" title="🤝 역할 분담으로 품질↑ 비용↓">
+<Callout type="warning" title="역할 분담으로 품질↑ 비용↓">
 리서치, 작성, 검토 에이전트를 분리하면 효율적입니다.
 </Callout>
 
@@ -616,7 +616,7 @@ claude batch run
 
 ### 1. "너가 해라"
 
-<Callout type="success" title="🎯 명령이 아닌 위임">
+<Callout type="success" title="명령이 아닌 위임">
 AI를 비서가 아닌 팀원으로 대하세요.
 </Callout>
 
@@ -644,7 +644,7 @@ REST API 베스트 프랙티스를 따르고,
 
 ### 2. "시스템으로 개선시켜라"
 
-<Callout type="tip" title="🔧 일회성이 아닌 재발 방지">
+<Callout type="tip" title="일회성이 아닌 재발 방지">
 문제를 고치는 게 아니라 시스템을 개선하세요.
 </Callout>
 
@@ -669,7 +669,7 @@ REST API 베스트 프랙티스를 따르고,
 
 ### 3. /clear
 
-<Callout type="warning" title="🧹 주기적 청소 필수">
+<Callout type="warning" title="주기적 청소 필수">
 앞에서 설명했지만 다시 강조합니다. 정말 중요합니다.
 </Callout>
 
@@ -687,7 +687,7 @@ REST API 베스트 프랙티스를 따르고,
 
 ### 4. /verify
 
-<Callout type="info" title="✅ 검증은 필수">
+<Callout type="info" title="검증은 필수">
 AI가 만든 코드를 바로 믿지 마세요.
 </Callout>
 
@@ -713,7 +713,7 @@ AI가 만든 코드를 바로 믿지 마세요.
 
 ### 5. /mcp
 
-<Callout type="success" title="🔌 외부 도구 연결">
+<Callout type="success" title="외부 도구 연결">
 Model Context Protocol로 Claude를 확장하세요.
 </Callout>
 
@@ -747,7 +747,7 @@ claude mcp add postgres
 
 ## 마무리
 
-<Callout type="tip" title="🎓 핵심 요약">
+<Callout type="tip" title="핵심 요약">
 1. CLAUDE.md는 500줄 이하로
 2. Skill 적극 활용
 3. 작업 끝나면 /clear

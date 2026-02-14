@@ -20,7 +20,7 @@ order: 2
 
 ## 🎯 클로드코드로 5분 실습하기
 
-<Callout type="success" title="✅ 실습 목표">
+<Callout type="success" title="실습 목표">
 AI가 실제로 파일을 생성하고, 코드를 작성하고, 라이브러리를 설치하는 전 과정을 관찰합니다.
 </Callout>
 

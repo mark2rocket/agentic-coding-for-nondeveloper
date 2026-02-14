@@ -9,7 +9,7 @@ order: 3
 
 **부연 설명**: 기본 설정만 써도 훌륭하지만, 설정을 만지면 나만의 비서를 완벽하게 커스터마이징 할 수 있습니다. 예를 들어, 특정 모델(Opus, Sonnet)을 고정하거나, 토큰 사용량을 제한하는 등의 설정을 할 수 있습니다.
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 설정 파일에서 언어와 자동 저장 옵션만 켜도 충분합니다.
 </Callout>
 
@@ -17,7 +17,7 @@ order: 3
 
 ## 🚀 오 마이 클로드코드 핵심 기능
 
-<Callout type="success" title="✨ 멀티 에이전트 오케스트레이션">
+<Callout type="success" title="멀티 에이전트 오케스트레이션">
 오 마이 클로드코드(OMC)는 Claude Code를 멀티 에이전트 시스템으로 변환합니다. 32개의 전문 에이전트, 40+ 스킬, 그리고 지능형 워크플로우를 제공합니다.
 </Callout>
 

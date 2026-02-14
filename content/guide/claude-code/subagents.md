@@ -53,6 +53,6 @@ tools: Read, Grep, Glob
 **⚠️ 중요: 요약이 핵심**
 Subagent는 전체 컨텍스트 대신 **핵심 요약만 반환**하므로 출력 형식을 명확히 지정해야 합니다.
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 컨텍스트 45% 넘으면 Subagent로 분산, 각자 전문 분야만 맡겨서 품질 향상시키세요.
 </Callout>

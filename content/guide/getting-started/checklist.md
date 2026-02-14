@@ -5,7 +5,7 @@ order: 4
 
 에이전틱 코딩 마스터를 위한 **인터랙티브 체크리스트**입니다. 하나씩 체크하며 진행하세요!
 
-<Callout type="tip" title="💡 사용법">
+<Callout type="tip" title="사용법">
 각 항목을 완료하면 체크! 모든 항목을 체크하면 에이전틱 코딩 전문가가 됩니다.
 </Callout>
 
@@ -348,7 +348,7 @@ order: 4
 
 ## 🎓 졸업 기준
 
-<Callout type="success" title="🎉 축하합니다!">
+<Callout type="success" title="축하합니다!">
 다음 조건을 모두 만족하면 에이전틱 코딩 전문가로 인정합니다!
 </Callout>
 
@@ -387,7 +387,7 @@ order: 4
 
 ## 🎯 마무리
 
-<Callout type="tip" title="💡 활용 팁">
+<Callout type="tip" title="활용 팁">
 1. 이 페이지를 즐겨찾기하세요
 2. 매일 체크리스트 업데이트하세요
 3. 완료한 항목 체크하며 성취감 느끼세요

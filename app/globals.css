@@ -108,17 +108,17 @@ pre code {
 
 /* 인라인 코드 스타일 (라이트모드) */
 :not(pre) > code {
-  background: #fff4e6 !important;
-  border: 1px solid #ffd8a8 !important;
+  background: #f3f4f6 !important;
+  border: 1px solid #d1d5db !important;
   border-radius: 0.25rem !important;
   padding: 0.125rem 0.375rem !important;
   font-size: 0.875em !important;
-  color: #d9730d !important;
+  color: #374151 !important;
 }
 
 /* 인라인 코드 스타일 (다크모드) */
 .dark :not(pre) > code {
-  background: #2d1f0f !important;
-  border: 1px solid #664d03 !important;
-  color: #ffc078 !important;
+  background: #1f2937 !important;
+  border: 1px solid #374151 !important;
+  color: #d1d5db !important;
 }

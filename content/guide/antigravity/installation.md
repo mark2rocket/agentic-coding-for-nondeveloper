@@ -17,7 +17,7 @@ https://antigravity.google/
 - macOS 11 (Big Sur) 이상
 - Linux (Ubuntu 20.04+ 권장)
 
-<Callout type="info" title="💾 파일 크기">
+<Callout type="info" title="파일 크기">
 설치 파일은 약 500MB~1GB 정도입니다. 안정적인 인터넷 연결에서 다운로드하세요.
 </Callout>
 
@@ -53,7 +53,7 @@ sudo apt-get install -f
 sudo rpm -i antigravity-linux.rpm
 ```
 
-<Callout type="tip" title="💡 간편 설치 팁">
+<Callout type="tip" title="간편 설치 팁">
 설치 과정은 매우 간소화되어 있으며, **대부분 기본값(Default)으로 진행**하면 됩니다. 특별한 이유가 없다면 설정을 변경하지 마세요.
 </Callout>
 
@@ -75,7 +75,7 @@ sudo rpm -i antigravity-linux.rpm
 5. 로그인 완료
 ```
 
-<Callout type="warning" title="⚠️ 계정 권한">
+<Callout type="warning" title="계정 권한">
 안티그래비티는 강력한 권한이 필요합니다. 반드시 **개인 계정** 또는 **개발 전용 계정**을 사용하세요. 회사 계정 사용 시 보안 정책에 따라 제한될 수 있습니다.
 </Callout>
 
@@ -97,7 +97,7 @@ sudo rpm -i antigravity-linux.rpm
 → 현재 사용 시간과 남은 할당량 확인
 ```
 
-<Callout type="tip" title="💰 무료 플랜 활용 팁">
+<Callout type="tip" title="무료 플랜 활용 팁">
 무료 플랜으로 시작하여 필요성을 느끼면 유료 플랜으로 업그레이드하세요. 대부분의 개인 프로젝트는 월 50시간으로 충분합니다.
 </Callout>
 
@@ -174,6 +174,6 @@ sudo rpm -i antigravity-linux.rpm
 - 저장공간: 10GB 이상 여유 공간
 - 인터넷: 광대역 (10Mbps 이상)
 
-<Callout type="success" title="✅ 설치 완료!">
+<Callout type="success" title="설치 완료!">
 설치가 완료되었다면 다음 단계인 "3-3. 초기 설정"으로 이동하여 안티그래비티를 사용할 준비를 마치세요.
 </Callout>

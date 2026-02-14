@@ -5,7 +5,7 @@ order: 1
 
 에이전틱 코딩 도구는 크게 3가지입니다. **안티그래비티**, **클로드코드**, **오 마이 클로드코드(OMC)**. 어떤 걸 선택해야 할까요?
 
-<Callout type="success" title="🎯 30초 결론">
+<Callout type="success" title="30초 결론">
 - **완전 초보**: 안티그래비티 (GUI, 시각적)
 - **약간 아는 사람**: 클로드코드 (터미널, 정확)
 - **고급 사용자**: OMC (클로드코드 + 확장팩)
@@ -32,7 +32,7 @@ order: 1
 
 ### 이런 분께 추천
 
-<Callout type="info" title="✅ 안티그래비티를 선택하세요">
+<Callout type="info" title="안티그래비티를 선택하세요">
 - 코딩을 한 번도 안 해봤다
 - 터미널(검은 화면)이 무섭다
 - 마우스로 클릭하는 게 편하다
@@ -89,7 +89,7 @@ order: 1
 
 ### 이런 분께 추천
 
-<Callout type="info" title="✅ 클로드코드를 선택하세요">
+<Callout type="info" title="클로드코드를 선택하세요">
 - 터미널을 좀 써봤다
 - 정확한 결과가 중요하다
 - 복잡한 프로젝트를 만들고 싶다
@@ -166,7 +166,7 @@ ClaudeCodeInstaller.exe
 
 ### 이런 분께 추천
 
-<Callout type="info" title="✅ OMC를 선택하세요">
+<Callout type="info" title="OMC를 선택하세요">
 - 클로드코드를 이미 쓰고 있다
 - 더 강력한 기능이 필요하다
 - 멀티 에이전트 오케스트레이션을 하고 싶다
@@ -495,7 +495,7 @@ claude plugin add oh-my-claudecode
 
 ## 🎓 최종 추천
 
-<Callout type="success" title="✅ 결론">
+<Callout type="success" title="결론">
 1. **완전 초보**: 안티그래비티 시작 → 익숙해지면 클로드코드 전환
 2. **약간 아는 사람**: 클로드코드 바로 시작
 3. **고급 사용자**: 클로드코드 + OMC 조합

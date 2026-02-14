@@ -33,6 +33,6 @@ fi
 echo "✅ 린트 통과"
 ```
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 Hooks로 린트, 테스트, 포맷을 자동화하면 AI가 알아서 챙겨줍니다.
 </Callout>

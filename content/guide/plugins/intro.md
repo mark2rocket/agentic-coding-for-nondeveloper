@@ -5,7 +5,7 @@ order: 1
 
 클로드코드의 기능을 확장해주는 추가 모듈입니다. 스마트폰 앱스토어처럼 필요한 기능만 골라서 설치할 수 있습니다.
 
-<Callout type="info" title="🔌 플러그인의 힘">
+<Callout type="info" title="플러그인의 힘">
 9,000개 이상의 플러그인이 존재하며, 매일 새로운 플러그인이 추가되고 있습니다. 딱 필요한 것만 골라서 클로드코드를 나만의 도구로 만드세요!
 </Callout>
 
@@ -99,7 +99,7 @@ claude plugin list
 
 ### 1. Chrome DevTools MCP ⭐ 가장 추천
 
-<Callout type="success" title="🔍 실시간 브라우저 디버깅">
+<Callout type="success" title="실시간 브라우저 디버깅">
 현재 켜진 Chrome 브라우저를 Claude가 직접 분석합니다.
 </Callout>
 
@@ -127,7 +127,7 @@ claude plugin add @anthropic/chrome-devtools-mcp
 
 ### 2. Figma MCP Server
 
-<Callout type="tip" title="🎨 디자인 → 코드 직접 변환">
+<Callout type="tip" title="디자인 → 코드 직접 변환">
 스크린샷 대신 실제 Figma 파일을 읽습니다.
 </Callout>
 
@@ -158,7 +158,7 @@ claude plugin add @anthropic/figma-mcp
 
 ### 3. Repomix 플러그인 (3종 세트)
 
-<Callout type="info" title="📦 코드베이스 분석 전문가">
+<Callout type="info" title="코드베이스 분석 전문가">
 전체 프로젝트를 AI가 이해할 수 있는 형태로 변환합니다.
 </Callout>
 
@@ -188,7 +188,7 @@ claude plugin add @repomix/explorer
 
 ### 4. The Deep Trilogy (기획 → 구현 자동화)
 
-<Callout type="success" title="🚀 아이디어 → 완성 코드 자동화">
+<Callout type="success" title="아이디어 → 완성 코드 자동화">
 모호한 아이디어를 체계적으로 분해하고 구현합니다.
 </Callout>
 
@@ -222,7 +222,7 @@ claude plugin add @repomix/explorer
 
 ### 5. Ralph (자율 AI 루프)
 
-<Callout type="warning" title="🔄 멈추지 않는 AI">
+<Callout type="warning" title="멈추지 않는 AI">
 PRD 완료될 때까지 자율적으로 작업을 반복합니다.
 </Callout>
 
@@ -308,7 +308,7 @@ ralph "이 PRD대로 앱을 완성해줘"
 
 ### 9. connect-apps (500+ 앱 연동)
 
-<Callout type="tip" title="🔗 모든 앱과 연결">
+<Callout type="tip" title="모든 앱과 연결">
 Composio 기반으로 500개 이상의 앱과 자동 연동
 </Callout>
 
@@ -341,7 +341,7 @@ claude plugin add @composio/connect-apps
 
 ### 10. Context7 MCP (최신 API 문서 자동 가져오기)
 
-<Callout type="info" title="📚 항상 최신 문서 참조">
+<Callout type="info" title="항상 최신 문서 참조">
 라이브러리 버전에 맞는 정확한 문서를 자동으로 가져옵니다.
 </Callout>
 
@@ -371,7 +371,7 @@ claude mcp add @modelcontextprotocol/server-context7
 
 ### 11. frontend-design (고품질 UI 디자인)
 
-<Callout type="success" title="🎨 AI 스럽지 않은 디자인">
+<Callout type="success" title="AI 스럽지 않은 디자인">
 뻔한 AI 디자인을 벗어나 독창적인 인터페이스를 생성합니다.
 </Callout>
 
@@ -396,7 +396,7 @@ claude mcp add @modelcontextprotocol/server-context7
 
 ### Playwright MCP (브라우저 테스팅 전문)
 
-<Callout type="success" title="🎭 E2E 테스트 자동화">
+<Callout type="success" title="E2E 테스트 자동화">
 웹 애플리케이션 테스트를 Claude가 직접 작성하고 실행합니다.
 </Callout>
 
@@ -448,7 +448,7 @@ claude plugin add @firecrawl/mcp-server
 
 ### tdd-guard (TDD 자동 강제)
 
-<Callout type="warning" title="✅ 테스트 없으면 코드 없다">
+<Callout type="warning" title="테스트 없으면 코드 없다">
 테스트를 먼저 작성하도록 강제하는 플러그인입니다.
 </Callout>
 
@@ -475,7 +475,7 @@ claude plugin add @tdd/guard
 
 ### CCPlugins (생산성 플러그인 모음) ⭐ GitHub 2.6k stars
 
-<Callout type="tip" title="🚀 커뮤니티가 인정한 플러그인">
+<Callout type="tip" title="커뮤니티가 인정한 플러그인">
 실제 개발자가 만든, 실제로 시간을 절약해주는 플러그인 모음입니다.
 </Callout>
 
@@ -502,7 +502,7 @@ claude plugin add @ccplugins/productivity-pack
 
 ### Continuous-Claude-v2 (컨텍스트 관리) ⭐ GitHub 2.2k stars
 
-<Callout type="info" title="🧠 컨텍스트 오염 방지">
+<Callout type="info" title="컨텍스트 오염 방지">
 에이전트 간 컨텍스트를 분리하고 효율적으로 관리합니다.
 </Callout>
 
@@ -893,7 +893,7 @@ claude plugin disable [heavy-plugin]
 
 ## 🎯 마무리
 
-<Callout type="success" title="✅ 핵심 요약">
+<Callout type="success" title="핵심 요약">
 1. `/plugin` 명령어로 마켓플레이스 접근
 2. 필수 10개 플러그인 먼저 설치
 3. 프로젝트별 vs 전역 설치 구분

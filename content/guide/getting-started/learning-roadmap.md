@@ -5,7 +5,7 @@ order: 3
 
 비개발자를 위한 **4주 완성 에이전틱 코딩 마스터 로드맵**입니다.
 
-<Callout type="success" title="🎯 목표">
+<Callout type="success" title="목표">
 4주 후, 혼자서 간단한 웹 서비스를 만들고 배포할 수 있습니다.
 </Callout>
 
@@ -569,7 +569,7 @@ README.md 작성하기
 
 ## 🎯 마무리
 
-<Callout type="success" title="✅ 핵심 요약">
+<Callout type="success" title="핵심 요약">
 - 4주 = 초보 → 실전 가능 수준
 - 매일 1-2시간 투자
 - 총 3개 프로젝트 완성 + 1개 배포

@@ -5,7 +5,7 @@ order: 5
 
 **1시간 만에** 에이전틱 코딩을 경험하고 첫 웹사이트를 만들어보세요!
 
-<Callout type="success" title="🎯 1시간 후 결과">
+<Callout type="success" title="1시간 후 결과">
 - 에이전틱 코딩 개념 이해 ✅
 - 도구 설치 완료 ✅
 - 첫 웹사이트 완성 ✅
@@ -45,7 +45,7 @@ AI에게 요청 → 몇 분 만에 완성
 2. **반복성**: 에러 나도 자동 수정
 3. **도구 사용**: 브라우저, 터미널 직접 조작
 
-<Callout type="info" title="💡 비유">
+<Callout type="info" title="비유">
 AI를 "진짜 개발자 동료"처럼 생각하세요. 요청하면 알아서 해줍니다!
 </Callout>
 
@@ -316,7 +316,7 @@ AI가 자동으로:
 
 ## 🎓 Step 5: 다음 단계 (3분)
 
-<Callout type="success" title="🎉 축하합니다!">
+<Callout type="success" title="축하합니다!">
 1시간 만에 에이전틱 코딩으로 웹사이트를 만들었습니다!
 </Callout>
 
@@ -472,7 +472,7 @@ ls
 
 ## 🎯 마무리
 
-<Callout type="success" title="✅ 1시간 완주 축하합니다!">
+<Callout type="success" title="1시간 완주 축하합니다!">
 이제 에이전틱 코딩의 세계에 입문했습니다.
 앞으로 4주간 꾸준히 학습하면 전문가가 될 수 있습니다!
 </Callout>

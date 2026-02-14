@@ -5,7 +5,7 @@ order: 1
 
 **에이전틱 코딩(Agentic Coding)**은 AI 에이전트가 코드를 직접 작성하고, 실행하고, 디버깅하는 새로운 개발 방식입니다.
 
-<Callout type="success" title="🎯 한 문장 요약">
+<Callout type="success" title="한 문장 요약">
 "내가 만들고 싶은 것을 AI에게 말로 설명하면, AI가 알아서 코드를 짜고 작동하게 만들어주는 기술"
 </Callout>
 
@@ -15,63 +15,51 @@ order: 1
 
 ### 기존 코딩 (전통적 방식)
 
+<LevelBox>
+
 **1. 개발자가 직접 코드 작성**
 - `function add(a, b) { return a + b; }`
-
-<br /><br />
 
 **2. 에러 발생**
 - `SyntaxError: Unexpected token`
 
-<br /><br />
-
 **3. 개발자가 직접 수정**
 - 구글 검색 → StackOverflow → 수정
-
-<br /><br />
 
 **4. 테스트**
 - 직접 브라우저 열어서 확인
 
-<br /><br />
-
 **5. 배포**
 - 복잡한 명령어 입력
 
-<br />
-
 💡 **소요 시간**: 몇 시간 ~ 며칠
+
+</LevelBox>
 
 ---
 
 ### 에이전틱 코딩 (AI 에이전트 방식)
 
+<LevelBox>
+
 **1. 사람이 AI에게 요청**
 - "두 숫자를 더하는 웹 계산기 만들어줘"
-
-<br /><br />
 
 **2. AI가 코드 자동 생성**
 - HTML + CSS + JavaScript 모두 작성
 
-<br /><br />
-
 **3. AI가 자동 테스트**
 - 브라우저 열어서 직접 확인
-
-<br /><br />
 
 **4. AI가 에러 자동 수정**
 - 에러 나면 스스로 고침
 
-<br /><br />
-
 **5. AI가 배포 준비**
 - 클릭 한 번으로 완료
 
-<br />
-
 ✨ **소요 시간**: 몇 분 ~ 몇 십분
+
+</LevelBox>
 
 ---
 
@@ -79,7 +67,7 @@ order: 1
 
 ### 1. 자율성 (Autonomy)
 
-<Callout type="info" title="🤖 AI가 스스로 판단합니다">
+<Callout type="info" title="AI가 스스로 판단합니다">
 사람이 일일이 지시하지 않아도 AI가 알아서 작업합니다.
 </Callout>
 
@@ -101,7 +89,7 @@ order: 1
 
 ### 2. 반복성 (Iteration)
 
-<Callout type="info" title="🔄 완벽할 때까지 반복합니다">
+<Callout type="info" title="완벽할 때까지 반복합니다">
 AI는 실패해도 포기하지 않고 계속 시도합니다.
 </Callout>
 
@@ -125,7 +113,7 @@ AI는 실패해도 포기하지 않고 계속 시도합니다.
 
 ### 3. 도구 사용 (Tool Use)
 
-<Callout type="info" title="🛠️ AI가 실제 도구를 사용합니다">
+<Callout type="info" title="AI가 실제 도구를 사용합니다">
 코드만 작성하는 게 아니라 브라우저, 터미널, Git 등을 직접 조작합니다.
 </Callout>
 
@@ -251,7 +239,7 @@ AI는 실패해도 포기하지 않고 계속 시도합니다.
 
 ## 🤝 비개발자가 할 수 있을까?
 
-<Callout type="success" title="✅ 네, 가능합니다!">
+<Callout type="success" title="네, 가능합니다!">
 이 가이드는 **비개발자를 위해** 만들어졌습니다.
 </Callout>
 
@@ -315,7 +303,7 @@ AI는 실패해도 포기하지 않고 계속 시도합니다.
 
 ## 🎓 다음 단계
 
-<Callout type="tip" title="💡 시작이 반입니다">
+<Callout type="tip" title="시작이 반입니다">
 에이전틱 코딩의 개념을 이해했다면, 이제 도구를 선택할 차례입니다.
 </Callout>
 
@@ -377,7 +365,7 @@ AI는 실패해도 포기하지 않고 계속 시도합니다.
 
 에이전틱 코딩은 **"코딩을 배우는 것"**이 아니라 **"AI와 협업하는 방법을 배우는 것"**입니다.
 
-<Callout type="success" title="✅ 핵심 요약">
+<Callout type="success" title="핵심 요약">
 - 에이전틱 코딩 = AI가 대신 코드 작성
 - 비개발자도 가능
 - 개발 속도 10배 향상

@@ -5,7 +5,7 @@ order: 2
 
 클로드코드를 설치하는 가장 쉬운 방법부터 단계별로 안내합니다.
 
-<Callout type="success" title="🎉 2025년 업데이트: 설치가 훨씬 쉬워졌습니다!">
+<Callout type="success" title="2025년 업데이트: 설치가 훨씬 쉬워졌습니다!">
 이제 **Node.js 없이도** 설치 가능하며, Windows는 **클릭 한 번**으로 설치할 수 있습니다.
 </Callout>
 
@@ -25,7 +25,7 @@ order: 2
 
 ## Windows 설치 (가장 쉬움! ⭐)
 
-<Callout type="tip" title="💡 초보자 강력 추천">
+<Callout type="tip" title="초보자 강력 추천">
 Windows 사용자라면 **방법 1: GUI 설치 프로그램**을 사용하세요. 클릭 몇 번으로 끝납니다!
 </Callout>
 
@@ -35,47 +35,59 @@ Windows 사용자라면 **방법 1: GUI 설치 프로그램**을 사용하세요
 
 **설치 과정:**
 
+<LevelBox>
+
+**1단계: 설치 파일 다운로드**
+- GitHub 릴리스 페이지 방문
+- ClaudeCodeInstaller.exe 다운로드
+
+**2단계: 설치 프로그램 실행**
+- 다운로드한 파일 더블클릭
+- "이 앱이 디바이스를 변경하도록 허용하시겠습니까?" → 예
+
+**3단계: 설치 옵션 선택**
+
+```text
+┌──────────────────────────────────────┐
+│ Claude Code Installer                │
+│                                      │
+│ 설치할 위치를 선택하세요:             │
+│ ☑ Terminal (터미널에서 사용)         │
+│ ☑ VSCode (VSCode에서 사용)          │
+│                                      │
+│          [Install 시작]               │
+└──────────────────────────────────────┘
 ```
-1단계: 설치 파일 다운로드
-   👉 GitHub 릴리스 페이지 방문
-   👉 ClaudeCodeInstaller.exe 다운로드
 
-2단계: 설치 프로그램 실행
-   👉 다운로드한 파일 더블클릭
-   👉 "이 앱이 디바이스를 변경하도록 허용하시겠습니까?" → 예
+**4단계: 설치 완료 대기 (약 2-3분)**
+- 설치 진행률: ████████████████ 100%
 
-3단계: 설치 옵션 선택
-   ┌──────────────────────────────────────┐
-   │ Claude Code Installer                │
-   │                                      │
-   │ 설치할 위치를 선택하세요:             │
-   │ ☑ Terminal (터미널에서 사용)         │
-   │ ☑ VSCode (VSCode에서 사용)          │
-   │                                      │
-   │          [Install 시작]               │
-   └──────────────────────────────────────┘
+**5단계: 설치 완료!**
+- 터미널 또는 VSCode에서 바로 사용 가능
 
-4단계: 설치 완료 대기 (약 2-3분)
-   설치 진행률: ████████████████ 100%
-
-5단계: 설치 완료!
-   👉 터미널 또는 VSCode에서 바로 사용 가능
-```
+</LevelBox>
 
 **확인 방법:**
-```
-1. Win + R 키 누르기
-2. "cmd" 입력 후 Enter
-3. 명령 프롬프트에 입력:
 
-   claude --version
+<LevelBox>
 
-4. 버전 정보가 표시되면 성공!
-   예: Claude Code v0.2.1
-```
+**1. Win + R 키 누르기**
 
-<Callout type="success" title="✅ 설치 성공 화면 예시">
-```
+**2. "cmd" 입력 후 Enter**
+
+**3. 명령 프롬프트에 입력:**
+
+```bash
+claude --version
+```bash
+
+**4. 버전 정보가 표시되면 성공!**
+- 예: `Claude Code v0.2.1`
+
+</LevelBox>
+
+<Callout type="success" title="설치 성공 화면 예시">
+```text
 C:\Users\사용자명> claude --version
 Claude Code v0.2.1
 
@@ -99,14 +111,16 @@ Type '/help' for a list of commands.
 
 **설치 과정:**
 
-```
-1단계: PowerShell 열기
-   👉 Win + X 키 누르기
-   👉 "Windows PowerShell" 또는 "터미널" 선택
-   (관리자 권한 불필요!)
+<LevelBox>
 
-2단계: 설치 명령어 입력
-```
+**1단계: PowerShell 열기**
+- Win + X 키 누르기
+- "Windows PowerShell" 또는 "터미널" 선택
+- (관리자 권한 불필요!)
+
+**2단계: 설치 명령어 입력**
+
+</LevelBox>
 
 **터미널 입력 예시:**
 ```powershell
@@ -131,7 +145,7 @@ Type '/help' for a list of commands.
 │                                                        │
 │ PS C:\Users\사용자명>                                  │
 └────────────────────────────────────────────────────────┘
-```
+```powershell
 
 **자동 업데이트:**
 ```powershell
@@ -140,7 +154,7 @@ winget upgrade claude-code
 
 # 또는 모든 프로그램 업데이트
 winget upgrade --all
-```
+```text
 
 ---
 
@@ -150,12 +164,14 @@ winget upgrade --all
 
 **설치 과정:**
 
-```
-1단계: PowerShell 열기
-   👉 Win + X → "Windows PowerShell"
+<LevelBox>
 
-2단계: 아래 명령어 복사해서 붙여넣기
-```
+**1단계: PowerShell 열기**
+- Win + X → "Windows PowerShell"
+
+**2단계: 아래 명령어 복사해서 붙여넣기**
+
+</LevelBox>
 
 **터미널 입력 예시:**
 ```powershell
@@ -174,9 +190,9 @@ winget upgrade --all
 │                                                        │
 │ PS C:\Users\사용자명>                                  │
 └────────────────────────────────────────────────────────┘
-```
+```powershell
 
-<Callout type="info" title="💡 복사-붙여넣기 팁">
+<Callout type="info" title="복사-붙여넣기 팁">
 - 복사: Ctrl + C
 - PowerShell에 붙여넣기: **마우스 우클릭** 또는 Ctrl + V
 - Enter 키로 실행
@@ -190,13 +206,15 @@ winget upgrade --all
 
 **설치 과정:**
 
-```
-1단계: 터미널 열기
-   👉 Spotlight 검색 (Cmd + Space)
-   👉 "터미널" 입력 후 Enter
+<LevelBox>
 
-2단계: Homebrew가 있는지 확인
-```
+**1단계: 터미널 열기**
+- Spotlight 검색 (Cmd + Space)
+- "터미널" 입력 후 Enter
+
+**2단계: Homebrew가 있는지 확인**
+
+</LevelBox>
 
 **터미널 입력 예시:**
 ```bash
@@ -220,7 +238,7 @@ winget upgrade --all
 │                                                        │
 │ ~ %                                                    │
 └────────────────────────────────────────────────────────┘
-```
+```bash
 
 ---
 
@@ -242,7 +260,7 @@ winget upgrade --all
 │ ~ % claude --version                                   │
 │ Claude Code v0.2.1                                    │
 └────────────────────────────────────────────────────────┘
-```
+```text
 
 ---
 
@@ -271,7 +289,7 @@ winget upgrade --all
 │ user@linux:~$ claude --version                        │
 │ Claude Code v0.2.1                                    │
 └────────────────────────────────────────────────────────┘
-```
+```bash
 
 ---
 
@@ -283,14 +301,14 @@ winget upgrade --all
 │ $ sudo apt update                                      │
 │ $ sudo apt install claude-code                        │
 └────────────────────────────────────────────────────────┘
-```
+```text
 
 **Fedora/RHEL:**
 ```bash
 ┌────────────────────────────────────────────────────────┐
 │ $ sudo dnf install claude-code                         │
 └────────────────────────────────────────────────────────┘
-```
+```bash
 
 ---
 
@@ -303,12 +321,12 @@ winget upgrade --all
 **터미널 입력:**
 ```bash
 claude --version
-```
+```text
 
 **성공 시 출력:**
-```
+```text
 Claude Code v0.2.1
-```
+```text
 
 ---
 
@@ -317,10 +335,10 @@ Claude Code v0.2.1
 **터미널 입력:**
 ```bash
 claude --help
-```
+```text
 
 **성공 시 출력:**
-```
+```text
 ┌────────────────────────────────────────────────────────┐
 │ Claude Code - AI-powered coding assistant              │
 │                                                        │
@@ -348,10 +366,10 @@ claude --help
 **터미널 입력:**
 ```bash
 claude login
-```
+```text
 
 **동작 과정:**
-```
+```text
 ┌────────────────────────────────────────────────────────┐
 │ > claude login                                         │
 │                                                        │
@@ -368,12 +386,18 @@ claude login
 ```
 
 **브라우저에서:**
-```
-1. 자동으로 브라우저 열림
-2. Anthropic 계정으로 로그인
-3. "Authorize Claude Code" 버튼 클릭
-4. 터미널로 돌아가서 확인
-```
+
+<LevelBox>
+
+**1. 자동으로 브라우저 열림**
+
+**2. Anthropic 계정으로 로그인**
+
+**3. "Authorize Claude Code" 버튼 클릭**
+
+**4. 터미널로 돌아가서 확인**
+
+</LevelBox>
 
 ---
 
@@ -382,10 +406,10 @@ claude login
 **터미널 입력:**
 ```bash
 claude chat
-```
+```bash
 
 **성공 시 화면:**
-```
+```text
 ┌────────────────────────────────────────────────────────┐
 │ Welcome to Claude Code! 🤖                             │
 │                                                        │
@@ -403,7 +427,7 @@ claude chat
 └────────────────────────────────────────────────────────┘
 ```
 
-<Callout type="success" title="🎉 설치 완료!">
+<Callout type="success" title="설치 완료!">
 이제 Claude Code를 사용할 준비가 끝났습니다! 다음 단계인 **"4-3. 기초 셋업"**으로 이동하세요.
 </Callout>
 
@@ -415,22 +439,27 @@ claude chat
 
 **문제 1: "claude를 인식할 수 없습니다"**
 
-```
-해결 방법:
-1. PowerShell 완전히 종료 후 재시작
-2. 또는 컴퓨터 재시작
-3. 그래도 안 되면:
-   - 제어판 > 시스템 > 고급 시스템 설정
-   - 환경 변수 > Path 확인
-   - C:\Program Files\Claude Code\bin 추가
-```
+<LevelBox>
+
+**해결 방법:**
+
+**1. PowerShell 완전히 종료 후 재시작**
+
+**2. 또는 컴퓨터 재시작**
+
+**3. 그래도 안 되면:**
+- 제어판 > 시스템 > 고급 시스템 설정
+- 환경 변수 > Path 확인
+- `C:\Program Files\Claude Code\bin` 추가
+
+</LevelBox>
 
 **문제 2: "실행 정책" 오류**
 
 **터미널 입력:**
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
+```text
 
 ---
 
@@ -438,19 +467,24 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 **문제 1: "보안 경고" 표시**
 
-```
-해결 방법:
-1. 시스템 환경설정 > 보안 및 개인 정보 보호
-2. "확인 없이 열기" 버튼 클릭
-3. 다시 claude 실행
-```
+<LevelBox>
+
+**해결 방법:**
+
+**1. 시스템 환경설정 > 보안 및 개인 정보 보호**
+
+**2. "확인 없이 열기" 버튼 클릭**
+
+**3. 다시 claude 실행**
+
+</LevelBox>
 
 **문제 2: "brew 명령어를 찾을 수 없습니다"**
 
 **Homebrew 먼저 설치:**
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+```bash
 
 ---
 
@@ -460,14 +494,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ```bash
 sudo chmod +x /usr/local/bin/claude
-```
+```text
 
 **문제 2: 의존성 오류**
 
 **Debian/Ubuntu:**
 ```bash
 sudo apt-get install -f
-```
+```bash
 
 **Fedora:**
 ```bash
@@ -478,7 +512,7 @@ sudo dnf install --allowerasing
 
 ## 네이티브 설치 vs Node.js 설치 비교
 
-<Callout type="info" title="📊 어떤 방법이 나에게 맞을까?">
+<Callout type="info" title="어떤 방법이 나에게 맞을까?">
 **2025년 이후 권장:** 네이티브 설치 방법을 사용하세요!
 </Callout>
 

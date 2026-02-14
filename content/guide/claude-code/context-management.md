@@ -35,6 +35,6 @@ order: 11
 
 **중요 특성**: Claude는 stateless(상태 비저장). 매 대화마다 제공된 정보만으로 작업합니다.
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 컨텍스트 40% 넘으면 /compact, 그래도 안 되면 /clear 후 재시작하세요.
 </Callout>

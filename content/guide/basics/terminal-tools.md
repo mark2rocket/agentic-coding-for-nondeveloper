@@ -7,13 +7,28 @@ order: 7
 
 ## 터미널이란?
 
+<LevelBox level={1}>
+
 **Level.1**: 컴퓨터와 대화하는 '문자 창구'입니다. 마우스 없이 키보드로 명령어를 입력하면 결과가 텍스트로 나옵니다.
+
+</LevelBox>
+
+
+<LevelBox level={2}>
 
 **Level.2**: 개발자가 파일 관리, 프로그램 실행, 서버 접속 등을 명령어로 수행하는 텍스트 기반 인터페이스입니다. 윈도우의 '명령 프롬프트', macOS의 '터미널'이 대표적입니다.
 
+</LevelBox>
+
+
+<LevelBox level={3}>
+
 **Level.3**: CLI(Command Line Interface)를 통해 운영체제와 직접 소통하는 터미널 에뮬레이터입니다. 쉘(Shell)을 통해 명령어를 해석하고, SSH로 원격 서버에 접속하며, 스크립트 자동화로 반복 작업을 처리합니다.
 
-<Callout type="tip" title="💡 한줄 요약">
+</LevelBox>
+
+
+<Callout type="tip" title="한줄 요약">
 GUI는 마우스 클릭, CLI는 키보드 명령어. 개발자는 터미널로 더 빠르고 정확하게 작업합니다.
 </Callout>
 
@@ -38,7 +53,7 @@ GUI는 마우스 클릭, CLI는 키보드 명령어. 개발자는 터미널로 �
 
 ### 1. iTerm2 (macOS 전용)
 
-<Callout type="info" title="🍎 macOS 사용자 필수">
+<Callout type="info" title="macOS 사용자 필수">
 무료 오픈소스로 10년 넘게 macOS 개발자의 표준 터미널입니다.
 </Callout>
 
@@ -58,7 +73,7 @@ GUI는 마우스 클릭, CLI는 키보드 명령어. 개발자는 터미널로 �
 
 ### 2. Warp (AI 네이티브)
 
-<Callout type="tip" title="🤖 AI로 명령어 학습">
+<Callout type="tip" title="AI로 명령어 학습">
 터미널을 에디터처럼 사용하고, AI가 명령어를 추천해줍니다.
 </Callout>
 
@@ -78,7 +93,7 @@ GUI는 마우스 클릭, CLI는 키보드 명령어. 개발자는 터미널로 �
 
 ### 3. Kitty (고성능)
 
-<Callout type="success" title="⚡ 속도 최강">
+<Callout type="success" title="속도 최강">
 GPU 가속으로 대량 로그도 끊김 없이 렌더링합니다.
 </Callout>
 
@@ -98,7 +113,7 @@ GPU 가속으로 대량 로그도 끊김 없이 렌더링합니다.
 
 ### 4. Ghostty (신예 강자)
 
-<Callout type="info" title="🆕 HashiCorp 창업자 제작">
+<Callout type="info" title="HashiCorp 창업자 제작">
 Terraform을 만든 Mitchell Hashimoto가 2021년부터 개발한 차세대 터미널입니다.
 </Callout>
 
@@ -118,7 +133,7 @@ Terraform을 만든 Mitchell Hashimoto가 2021년부터 개발한 차세대 터�
 
 ### 5. tmux (멀티플렉서)
 
-<Callout type="warning" title="🔧 터미널 위의 터미널">
+<Callout type="warning" title="터미널 위의 터미널">
 tmux는 터미널 에뮬레이터가 아닌 세션 관리 도구입니다. iTerm2, Warp 등과 함께 사용합니다.
 </Callout>
 

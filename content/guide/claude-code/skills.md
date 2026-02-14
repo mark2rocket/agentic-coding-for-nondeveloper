@@ -39,7 +39,7 @@ name: code-review-standards
 - 회의 노트 템플릿
 - 개인 워크플로우
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 자주 시키는 일은 'SKILL.md'로 만들어서 AI에게 장착시키세요. 업무 효율이 10배 오릅니다.
 </Callout>
 
@@ -47,7 +47,7 @@ name: code-review-standards
 
 ## 🏆 추천 스킬 TOP 10 (2026)
 
-<Callout type="success" title="✅ 즉시 사용 가능">
+<Callout type="success" title="즉시 사용 가능">
 아래 스킬들은 커뮤니티에서 검증된 생산성 향상 스킬입니다. 복사해서 바로 사용하세요!
 </Callout>
 

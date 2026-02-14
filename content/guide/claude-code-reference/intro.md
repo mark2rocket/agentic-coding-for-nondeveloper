@@ -5,7 +5,7 @@ order: 1
 
 실제로 사람들이 무엇을 만들었는지 참고하여 내 프로젝트에 적용합니다.
 
-<Callout type="info" title="📚 학습의 지름길">
+<Callout type="info" title="학습의 지름길">
 거창한 앱이 아니어도 됩니다. 남들이 만든 프롬프트나 구조를 따라 해보는 것(Copy & Paste)이 가장 빠른 학습법입니다.
 </Callout>
 
@@ -553,7 +553,7 @@ Day 27-28: 공유하기
 
 ## 🎓 마무리
 
-<Callout type="success" title="✅ 한줄 요약">
+<Callout type="success" title="한줄 요약">
 이 페이지를 즐겨찾기하고, 막힐 때마다 돌아오세요. 답은 여기 있습니다!
 </Callout>
 

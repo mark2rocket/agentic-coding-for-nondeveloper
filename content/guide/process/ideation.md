@@ -21,7 +21,7 @@ order: 1
 
 ## 🎯 클로드코드로 5분 실습하기
 
-<Callout type="success" title="✅ 실습 목표">
+<Callout type="success" title="실습 목표">
 좋은 기획 vs 나쁜 기획의 차이를 직접 체험하고, AI가 어떻게 다르게 반응하는지 확인합니다.
 </Callout>
 
@@ -106,7 +106,7 @@ AI에게 요청할 때 다음 4가지를 반드시 포함하세요:
 
 ## 🚀 GPTs/Gemini로 PRD 자동 생성하기
 
-<Callout type="success" title="💎 PRD 젬 활용">
+<Callout type="success" title="PRD 젬 활용">
 추상적인 아이디어를 AI 코딩 에이전트가 바로 구현할 수 있는 완벽한 PRD(제품 요구사항 정의서)로 변환해주는 전문 프롬프트입니다.
 </Callout>
 
@@ -182,7 +182,7 @@ PRD 작성이 완료되면, 현재 시제의 구어체로 사용자가 결과물
 3. PRD 파일 읽기: "PRD.md 파일을 읽고 이대로 구현해줘"
 4. AI가 PRD 기반으로 완벽한 코드 생성
 
-<Callout type="tip" title="💡 PRD 작성의 장점">
+<Callout type="tip" title="PRD 작성의 장점">
 - ✅ 개발 시작 전 명확한 요구사항 정리
 - ✅ AI가 질문 없이 바로 구현 가능
 - ✅ 팀원과 공유 가능한 문서

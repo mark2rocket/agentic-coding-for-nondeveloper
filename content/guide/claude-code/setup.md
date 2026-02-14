@@ -17,7 +17,7 @@ claude                         # 실행
 
 **부연 설명**: 로그인은 최초 1회만 하면 됩니다. 중요한 것은 '폴더 위치'입니다. 클로드 코드는 현재 터미널이 위치한 폴더를 자신의 '작업실'로 인식합니다. 따라서 엉뚱한 곳에서 실행하지 않도록, 항상 `cd` 명령어로 내가 작업할 폴더로 이동한 뒤에 `claude`를 실행해야 합니다. 실행하면 "무엇을 도와드릴까요?"라고 묻는데, 이때부터 한국어로 대화를 시작하면 됩니다.
 
-<Callout type="tip" title="💡 한줄 요약">
+<Callout type="tip" title="한줄 요약">
 로그인하고, 작업할 폴더로 들어가서, 'claude'라고 이름을 부르면 준비 끝입니다.
 </Callout>
 
@@ -27,7 +27,7 @@ claude                         # 실행
 
 MCP(Model Context Protocol) 서버는 Claude Code가 외부 도구와 연결되어 더 강력한 기능을 사용할 수 있게 해줍니다.
 
-<Callout type="info" title="💡 MCP란?">
+<Callout type="info" title="MCP란?">
 MCP는 Claude Code를 GitHub, 데이터베이스, 브라우저 등 외부 서비스와 연결해주는 다리입니다. 설치하면 Claude가 이런 서비스들을 직접 조작할 수 있습니다.
 </Callout>
 
@@ -180,7 +180,7 @@ claude mcp add @anthropic/sequential-thinking
 
 ### 사용 팁
 
-<Callout type="tip" title="💡 MCP 선택 가이드">
+<Callout type="tip" title="MCP 선택 가이드">
 **초보자:**
 - GitHub MCP
 - Context7 MCP

@@ -9,7 +9,7 @@ order: 5
 
 `.agent/skills/` 폴더에 `skill.md` 파일을 만들어서 나만의 스킬을 정의할 수 있습니다.
 
-<Callout type="info" title="📚 스킬 = AI의 업무 지침서">
+<Callout type="info" title="스킬 = AI의 업무 지침서">
 스킬은 "이런 상황에서는 이렇게 해라"라는 규칙을 문서화한 것입니다. 한 번 만들어두면 반복해서 사용할 수 있습니다.
 </Callout>
 
@@ -319,7 +319,7 @@ trigger: 주식 분석 요청 시
 
 ## 스킬 작성 가이드라인
 
-<Callout type="tip" title="💡 효과적인 스킬 작성법">
+<Callout type="tip" title="효과적인 스킬 작성법">
 1. **명확한 트리거 조건**: 언제 이 스킬이 사용되어야 하는지 명시
 2. **구체적인 절차**: 단계별로 세세하게 작성
 3. **예시 포함**: 실제 코드 예시를 반드시 포함
@@ -327,7 +327,7 @@ trigger: 주식 분석 요청 시
 5. **정기적 업데이트**: 프로젝트 진행하며 계속 개선
 </Callout>
 
-<Callout type="warning" title="⚠️ 주의사항">
+<Callout type="warning" title="주의사항">
 - 너무 복잡한 스킬은 AI가 이해하지 못할 수 있음
 - 한 스킬에 하나의 목적만 담기 (단일 책임 원칙)
 - 상충되는 스킬이 있으면 우선순위 명시
@@ -345,6 +345,6 @@ trigger: 주식 분석 요청 시
 4. **접근성** - alt 텍스트, aria-label 자동 추가
 5. **SEO 최적화** - meta 태그 자동 생성
 
-<Callout type="success" title="✅ 한줄 요약">
+<Callout type="success" title="한줄 요약">
 스킬은 "이렇게 해라"라는 규칙을 한 번만 정의하면, AI가 계속 기억하고 적용합니다. 업무 효율이 10배 올라갑니다!
 </Callout>
