@@ -72,15 +72,15 @@
           "title": "2. 에이전틱 코딩 프로세스",
           "children": [
             {
-              "title": "1. 기획 및 요구사항 정의 (Ideation)",
+              "title": "2-1. 기획 및 요구사항 정의 (Ideation)",
               "slug": "guide/process/ideation"
             },
             {
-              "title": "2. 생성 및 구현 (Generation)",
+              "title": "2-2. 생성 및 구현 (Generation)",
               "slug": "guide/process/generation"
             },
             {
-              "title": "3. 검증 및 수정 (Iteration)",
+              "title": "2-3. 검증 및 수정 (Iteration)",
               "slug": "guide/process/iteration"
             },
             {
