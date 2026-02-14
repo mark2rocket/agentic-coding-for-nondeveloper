@@ -86,10 +86,6 @@
             {
               "title": "🔄 프로세스 플로우 다이어그램",
               "slug": "guide/process/process-flow"
-            },
-            {
-              "title": "📊 단계별 소요 시간 (평균)",
-              "slug": "guide/process/time-estimation"
             }
           ]
         },
