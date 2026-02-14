@@ -461,8 +461,6 @@ claude chat
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-</LevelBox>
-
 ---
 
 ### macOS 문제
@@ -487,8 +485,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-</LevelBox>
 
 ---
 
